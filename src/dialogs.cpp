@@ -1184,7 +1184,6 @@ static network::connection network_data_dialog(CVideo& video, const std::string&
 	progress.set_location(progress_rect);
 
 	events::raise_draw_event();
-	video.flip();
 
 	network::statistics old_stats = get_stats(connection_num);
 
@@ -1201,7 +1200,7 @@ static network::connection network_data_dialog(CVideo& video, const std::string&
 		}
 
 		events::raise_draw_event();
-		video.flip();
+
 		events::pump();
 
 		if(res != 0) {
@@ -1246,7 +1245,6 @@ private:
 connect_waiter::ACTION connect_waiter::process()
 {
 	events::raise_draw_event();
-	v_.flip();
 	events::pump();
 	if(button_.pressed()) {
 		return ABORT;
@@ -1277,7 +1275,6 @@ network::connection network_connect_dialog(CVideo& v, const std::string& msg, co
 	frame.draw();
 
 	events::raise_draw_event();
-	v.flip();
 
 	connect_waiter waiter(v,cancel_button);
 	return network::connect(hostname,port,waiter);

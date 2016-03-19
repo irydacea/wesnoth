@@ -328,7 +328,6 @@ void default_map_generator::user_config(CVideo& v)
 
 		update_rect(xpos,ypos,width,height);
 
-		v.flip();
 		CVideo::delay(100);
 		events::pump();
 	}

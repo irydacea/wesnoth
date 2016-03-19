@@ -233,7 +233,6 @@ void show_help(CVideo& video, const section &toplevel_sec,
 					return;
 				}
 			}
-			video.flip();
 			CVideo::delay(10);
 		}
 	}

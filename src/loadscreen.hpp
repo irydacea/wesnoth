@@ -81,7 +81,6 @@ private:
 #else
 	surface logo_surface_;
 #endif
-	bool logo_drawn_;
 	int pby_offset_;
 	int prcnt_;
 

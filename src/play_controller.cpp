@@ -278,6 +278,8 @@ void play_controller::init(CVideo& video, const config& level)
 	menu_handler_.set_gui(gui_.get());
 	resources::screen = gui_.get();
 
+	join();
+
 	LOG_NG << "done initializing display... " << (SDL_GetTicks() - ticks()) << std::endl;
 
 	LOG_NG << "building gamestate to gui and whiteboard... " << (SDL_GetTicks() - ticks()) << std::endl;

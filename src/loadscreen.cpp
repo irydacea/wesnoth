@@ -76,7 +76,6 @@ loadscreen::loadscreen(CVideo &screen, const int percent):
 #else
 	logo_surface_(image::get_image("misc/logo-bg.png~BLIT(misc/logo.png)")),
 #endif
-	logo_drawn_(false),
 	pby_offset_(0),
 	prcnt_(percent)
 {
@@ -198,28 +197,15 @@ void loadscreen::draw_screen(const std::string &text)
 		textarea_.y = pby + pbh + 4*(bw + bispw);
 		screen_.draw_texture(txt, textarea_.x, textarea_.y);
 	}
-	screen_.flip();
 #else
 	surface& gdis = screen_.getSurface();
 	SDL_Rect area;
 
-	// Pump events and make sure to redraw the logo if there's a chance that it's been obscured
-	SDL_Event ev;
-	while(SDL_PollEvent(&ev)) {
-		if (ev.type == SDL_WINDOWEVENT &&
-				ev.window.event == SDL_WINDOWEVENT_RESIZED) {
-			screen_.update_framebuffer();
-		}
-		if (ev.type == SDL_WINDOWEVENT &&
-				(ev.window.event == SDL_WINDOWEVENT_RESIZED ||
-						ev.window.event == SDL_WINDOWEVENT_EXPOSED))
-		{
-			logo_drawn_ = false;
-		}
-	}
+	//blank the screen
+	clear_screen();
 
 	// Draw logo if it was successfully loaded.
-	if (logo_surface_ && !logo_drawn_) {
+	if (logo_surface_) {
 		area.x = (screen_.getx () - logo_surface_->w) / 2;
 		area.y = ((scry - logo_surface_->h) / 2) - pbh;
 		area.w = logo_surface_->w;
@@ -233,7 +219,6 @@ void loadscreen::draw_screen(const std::string &text)
 				ERR_DP << "loadscreen: Logo image is too big." << std::endl;
 			}
 		}
-		logo_drawn_ = true;
 		update_rect(area.x, area.y, area.w, area.h);
 	}
 	int pbx = (scrx - pbw)/2;					// Horizontal location.
@@ -276,18 +261,19 @@ void loadscreen::draw_screen(const std::string &text)
 	// Clear the last text and draw new if text is provided.
 	if (!text.empty())
 	{
-		SDL_Rect oldarea = textarea_;
-		sdl::fill_rect(gdis,&textarea_,SDL_MapRGB(gdis->format,0,0,0));
+		//SDL_Rect oldarea = textarea_;
+		//sdl::fill_rect(gdis,&textarea_,SDL_MapRGB(gdis->format,0,0,0));
 		textarea_ = font::line_size(text, preferences::font_scaled(font::SIZE_NORMAL));
 		textarea_.x = scrx/2 + bw + bispw - textarea_.w / 2;
 		textarea_.y = pby + pbh + 4*(bw + bispw);
 		textarea_ = font::draw_text(&screen_,textarea_,font::SIZE_NORMAL,font::NORMAL_COLOR,text,textarea_.x,textarea_.y);
-		SDL_Rect refresh = sdl::union_rects(oldarea, textarea_);
-		update_rect(refresh.x, refresh.y, refresh.w, refresh.h);
+		//SDL_Rect refresh = sdl::union_rects(oldarea, textarea_);
+		//update_rect(refresh.x, refresh.y, refresh.w, refresh.h);
 	}
 	// Update the rectangle.
 	update_rect(pbx, pby, pbw + 2*(bw + bispw), pbh + 2*(bw + bispw));
-	screen_.flip();
+
+	events::pump();
 #endif
 }
 
@@ -302,7 +288,6 @@ void loadscreen::clear_screen()
 	surface& disp(screen_.getSurface());      // Screen surface.
 	// Make everything black.
 	sdl::fill_rect(disp,&area,SDL_MapRGB(disp->format,0,0,0));
-	screen_.flip();
 #endif
 }
 
@@ -386,7 +371,7 @@ void loadscreen::increment_progress()
 	if (percentage == global_loadscreen->prcnt_) return;
 
 	global_loadscreen->prcnt_ = percentage;
-	global_loadscreen->draw_screen(std::string());
+	global_loadscreen->draw_screen(translation::gettext(stages[current_stage].name));
 }
 
 void loadscreen::dump_counters() const
