@@ -5,6 +5,7 @@ Version 1.13.4+dev:
  * WML engine:
    * Fix some issues with [foreach]
    * Fix some issues with backstab-like weapon specials
+   * Support [effect]times=<integer>
  * Lua API:
    * wesnoth.match_unit can now take a location (rather than a unit) as
      the optional third parameter. This will cause the filter to consider
@@ -21,6 +22,10 @@ Version 1.13.4+dev:
      (where "array" is a table whose keys are all integers). This joins
      the elements of the array with commas and produces a single string
      value. eg {x = {1,2,3}} is equivalent to {x = "1,2,3"}.
+   * wesnoth.effects table can now be used to alter the behaviour of
+     built-in effects - for example, to add a new feature to
+     [effect]apply_to=attack. It also now supports effect descriptions,
+     for use by the [trait] tag.
  * Wesnoth formula engine:
    * Formulas in unit filters can now access nearly all unit attributes
    * New syntax features:
@@ -43,7 +48,7 @@ Version 1.13.4+dev:
        formula contexts, which means that they can be used outside FormulaAI.
        However, non-FormulaAI functions are currently local to the formula
        that declares them.
-     * Maps containing string keyss that are valid identifiers can now be
+     * Maps containing string keys that are valid identifiers can now be
        indexed with the dot operator instead of the indexing operator.
      * Strings can now be indexed via 'string'.char[n]. Also supported are
        'string'.word[n] and 'string'.item[n] (the latter splits on commas)
@@ -92,6 +97,8 @@ Version 1.13.4+dev:
        still work, but any future code should use wfl/wflend instead.
        Use of the .fai file extension is still fine for FormulaAI code;
        for other formula code in a separate file, .wfl is recommended instead.
+ * Miscellaneous and bug fixes:
+   * Resolve translated logo images not being used (bug #24357)
 
 Version 1.13.4:
  * Language and i18n:
