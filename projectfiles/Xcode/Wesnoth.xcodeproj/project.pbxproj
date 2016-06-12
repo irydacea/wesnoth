@@ -4740,19 +4740,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		91C2A6EB1B843AA900346948 /* Copy Translations (if present) */ = {
+		91C2A6EB1B843AA900346948 /* Copy Translations */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Translations (if present)";
+			name = "Copy Translations";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd \"$SOURCE_ROOT/../..\"\nif [ -e \"./translations\" ]; then\nrsync -rv --delete \"./translations\" \"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/\";\nfi";
+			shellScript = "TRANS_DIR=\"$BUILT_PRODUCTS_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/translations\"\n\ncd \"$SOURCE_ROOT/../..\"\nmkdir -p \"$TRANS_DIR\"\n\nrsync -rv --update --inplace --times --delete -FF po $TRANS_DIR\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
