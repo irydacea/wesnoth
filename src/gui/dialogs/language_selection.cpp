@@ -24,6 +24,7 @@
 #endif
 #include "gui/widgets/settings.hpp"
 #include "gui/widgets/window.hpp"
+#include "gui/dialogs/loadscreen.hpp"
 #include "language.hpp"
 #include "preferences.hpp"
 
@@ -87,7 +88,10 @@ void tlanguage_selection::post_show(twindow& window)
 		assert(res != -1);
 
 		const std::vector<language_def>& languages = get_languages();
-		::set_language(languages[res]);
+		tloadscreen::display(window.video(), [&languages, &res]() {
+			tloadscreen::progress("reload lang");
+			::set_language(languages[res]);
+		});
 		preferences::set_language(languages[res].localename);
 	}
 }
