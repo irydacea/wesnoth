@@ -133,8 +133,10 @@ namespace
 				po_file.open(po_path.c_str());
 			}
 			if(po_file.good()) {
+				std::string data((std::istreambuf_iterator<char>(po_file)), std::istreambuf_iterator<char>());
+				auto beg = data.begin(), end = data.end();
 				DBG_G << "Successfully loaded language file from " << po_path << "\n";
-				msg_catalog.insert({domain, po_catalog::from_istream(po_file)});
+				msg_catalog.insert({domain, po_catalog::from_iterators(beg, end)});
 			} else if(current_language_.full_name() != "c") {
 				WRN_G << "Error opening language file for " << current_language_.full_name() << ", textdomain " << domain << "\n";
 				WRN_G << "  (Most likely this means the file does not exist or lacks read permission.)\n";
