@@ -650,7 +650,7 @@ static int do_gameloop(const std::vector<std::string>& args)
 		if(res == false) {
 			std::cerr << "could not re-initialize fonts for the current language\n";
 			return;
-	}
+		}
 
 		gui2::tloadscreen::progress("refresh addons");
 		refresh_addon_version_info_cache();
