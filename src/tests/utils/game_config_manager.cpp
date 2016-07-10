@@ -64,13 +64,10 @@ namespace test_utils {
 			setlocale(LC_ALL, "English");
 #else
 			std::setlocale(LC_ALL, "C");
-			translation::init();
 #endif
 			const std::string& intl_dir = filesystem::get_intl_dir();
 			translation::bind_textdomain("wesnoth", intl_dir.c_str(), "UTF-8");
 			translation::bind_textdomain("wesnoth-lib", intl_dir.c_str(), "UTF-8");
-			translation::set_default_textdomain("wesnoth");
-
 
 			font::load_font_config();
 			gui2::init();
