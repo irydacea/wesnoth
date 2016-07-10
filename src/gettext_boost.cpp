@@ -122,6 +122,9 @@ namespace
 
 		void load_catalog(const std::string& domain, const fs::path& base_path)
 		{
+			if(current_language_.full_name() == "c") {
+				return; // Nothing to do, just use en_US strings
+			}
 			std::ifstream po_file;
 			fs::path po_path = base_path/domain;
 			po_path /= current_language_.full_name() + ".po";
@@ -137,7 +140,7 @@ namespace
 				auto beg = data.begin(), end = data.end();
 				DBG_G << "Successfully loaded language file from " << po_path << "\n";
 				msg_catalog.insert({domain, po_catalog::from_iterators(beg, end)});
-			} else if(current_language_.full_name() != "c") {
+			} else if(current_language_.full_name() != "en_US") {
 				WRN_G << "Error opening language file for " << current_language_.full_name() << ", textdomain " << domain << "\n";
 				WRN_G << "  (Most likely this means the file does not exist or lacks read permission.)\n";
 			}
