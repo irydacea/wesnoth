@@ -66,7 +66,6 @@
 #include "wml_exception.hpp"
 #include "whiteboard/manager.hpp"
 
-#include <boost/assign/list_of.hpp>
 #include <regex>
 
 static lg::log_domain log_engine("engine");

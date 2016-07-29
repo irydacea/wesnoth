@@ -36,8 +36,6 @@
 #include "util.hpp"
 #include "variable.hpp"
 
-#include <boost/assign/list_of.hpp>
-
 static lg::log_domain log_engine("engine");
 #define WRN_NG LOG_STREAM(warn, log_engine)
 
