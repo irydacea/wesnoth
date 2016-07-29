@@ -139,7 +139,7 @@ map_context::map_context(const config& game_config, const std::string& filename,
 	}
 
 	// 1.0 Pure map data
-	std::regex rexpression_map_data("map_data\\s*=\\s*\"(.+?)\"");
+	std::regex rexpression_map_data(R"""(map_data\s*=\s*"([^\0]+?)")""");
 	std::smatch matched_map_data;
 	if (!std::regex_search(file_string, matched_map_data, rexpression_map_data)) {
 		map_ = editor_map::from_string(game_config, file_string); //throws on error
@@ -151,12 +151,12 @@ map_context::map_context(const config& game_config, const std::string& filename,
 
 	// 2.0 Embedded map
 	const std::string& map_data = matched_map_data[1];
-	std::regex rexpression_macro("\\{(.+?)\\}");
+	std::regex rexpression_macro(R"""(\{(.+?)\})""");
 	std::smatch matched_macro;
 	if (!std::regex_search(map_data, matched_macro, rexpression_macro)) {
 		// We have a map_data string but no macro ---> embedded or scenario
 
-		std::regex rexpression_scenario("\\[scenario\\]|\\[test\\]|\\[multiplayer\\]");
+		std::regex rexpression_scenario(R"""(\[(scenario|test|multiplayer)\])""");
 		if (!std::regex_search(file_string, rexpression_scenario)) {
 			LOG_ED << "Loading generated scenario file" << std::endl;
 			// 4.0 editor generated scenario
@@ -539,7 +539,7 @@ bool map_context::save_map()
 			filesystem::write_file(get_filename(), map_data);
 		} else {
 			std::string map_string = filesystem::read_file(get_filename());
-			std::regex rexpression_map_data("(.*map_data\\s*=\\s*\")(.+?)(\".*)");
+			std::regex rexpression_map_data(R"""(([^\0]*map_data\s*=\s*")([^\0]+?)("[^\0]*))""");
 			std::smatch matched_map_data;
 			if (std::regex_search(map_string, matched_map_data, rexpression_map_data)) {
 				std::stringstream ss;
