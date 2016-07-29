@@ -67,7 +67,7 @@
 #include "whiteboard/manager.hpp"
 
 #include <boost/assign/list_of.hpp>
-#include <boost/regex.hpp>
+#include <regex>
 
 static lg::log_domain log_engine("engine");
 #define DBG_NG LOG_STREAM(debug, log_engine)
@@ -521,7 +521,7 @@ namespace {
 			static const std::string s_sep = "(, |\\n)";
 			static const std::string s_prefix = "(\\d+ )?";
 			static const std::string s_all = "(" + s_prefix + s_terrain + s_sep + ")+";
-			static const boost::regex r_all(s_all);
+			static const std::regex r_all(s_all);
 
 			const std::string& mapfile = filesystem::get_wml_location(filename_);
 			std::string res = "";
@@ -529,7 +529,7 @@ namespace {
 				res = filesystem::read_file(mapfile);
 			}
 			config retv;
-			if(boost::regex_match(res, r_all))
+			if(std::regex_match(res, r_all))
 			{
 				retv["map_data"] = res;
 			}
