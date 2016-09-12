@@ -42,8 +42,6 @@
 #include <map>                          // for map, map<>::mapped_type
 #include <ostream>                      // for operator<<, basic_ostream, etc
 
-#include "sdl/alpha.hpp"
-
 /**
  * @namespace about
  * Display credits %about all contributors.
@@ -341,7 +339,7 @@ void show_about(CVideo &video, const std::string &campaign)
 			text_rect_blit = text_rect;
 
 			text_surf = create_compatible_surface(screen, text_rect.w, text_rect.h);
-			SDL_SetAlpha(text_surf, SDL_RLEACCEL, SDL_ALPHA_OPAQUE);
+			adjust_surface_alpha(text_surf, SDL_ALPHA_OPAQUE);
 
 			// relocate the close button
 			close.set_location((screen->w/2)-(close.width()/2), screen->h - 30);
