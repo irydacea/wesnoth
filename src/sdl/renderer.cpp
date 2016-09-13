@@ -16,8 +16,8 @@
 #include "image.hpp"
 #include "log.hpp"
 
-static lg::log_domain log_engine("sdl_renderer");
-#define ERR_SDL LOG_STREAM(err, log_engine)
+static lg::log_domain log_sdl("sdl_renderer");
+#define LOG_SDL LOG_STREAM(info, log_sdl)
 
 namespace sdl {
 
@@ -36,14 +36,14 @@ void draw_line(
 		surface& surface,
 		SDL_Renderer* renderer,
 		Uint32 color,
-		unsigned x1,
-		unsigned y1,
+		const unsigned x1,
+		const unsigned y1,
 		const unsigned x2,
-		unsigned y2)
+		const unsigned y2)
 {
 	unsigned w = surface->w;
 
-	ERR_SDL << "Shape: draw line from " << x1 << ',' << y1 << " to " << x2
+	LOG_SDL << "Shape: draw line from " << x1 << ',' << y1 << " to " << x2
 	        << ',' << y2 << " surface width " << w << " surface height "
 	        << surface->h << ".\n";
 
@@ -72,7 +72,7 @@ void draw_circle(
 {
 	unsigned w = surface->w;
 
-	ERR_SDL << "Shape: draw circle at " << x_center << ',' << y_center
+	LOG_SDL << "Shape: draw circle at " << x_center << ',' << y_center
 	        << " with radius " << radius << " surface width " << w
 	        << " surface height " << surface->h << ".\n";
 

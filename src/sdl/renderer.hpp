@@ -42,10 +42,10 @@ void draw_line(
 	surface& surface,
 	SDL_Renderer* renderer,
 	Uint32 color,
-	unsigned x1,
-	unsigned y1,
+	const unsigned x1,
+	const unsigned y1,
 	const unsigned x2,
-	unsigned y2);
+	const unsigned y2);
 
 /**
  * Draws a circle on a surface.
