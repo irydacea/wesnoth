@@ -1406,7 +1406,7 @@ void twindow::signal_handler_click_dismiss(const event::tevent event,
 
 void twindow::signal_handler_sdl_key_down(const event::tevent event,
 										  bool& handled,
-										  SDLKey key)
+										  SDL_Keycode key)
 {
 	DBG_GUI_E << LOG_HEADER << ' ' << event << ".\n";
 

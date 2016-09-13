@@ -48,7 +48,7 @@ private:
 
 	void timer_callback();
 #if 0
-	void key_press_callback(bool&, bool&, const SDLKey key);
+	void key_press_callback(bool&, bool&, const SDL_Keycode key);
 #endif
 
 	const std::vector<std::string>& text_;
