@@ -12,6 +12,8 @@
    See the COPYING file for more details.
 */
 
+/* TEST TEST TEST TEST TEST TEST */
+
 #include "global.hpp"
 
 #include "addon/manager.hpp"
