@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-17 18:31 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:13 UTC\n"
 "PO-Revision-Date: 2014-08-23 07:43+0200\n"
 "Last-Translator: Honza <Honza-mistic@seznam.cz>\n"
 "Language-Team: Český <hrubymar10@gmail.com>\n"
@@ -749,15 +749,15 @@ msgstr ""
 "pobrali tolik potravy a zbraní, kolik unesli, a vrhli se do temnoty "
 "podzemních tunelů."
 
-#. [side]: type=Troll, id=Franik
-#. [side]: type=Troll, id=Henie
-#. [side]: type=Troll, id=Knash
-#. [side]: type=Troll, id=Krog
-#. [side]: type=Troll Warrior, id=Thung
 #. [side]: type=Troll Warrior, id=Tor
 #. [side]: type=Troll Warrior, id=Bor
 #. [side]: type=Troll Warrior, id=Oof
 #. [side]: type=Troll Warrior, id=Glu
+#. [side]: type=Troll, id=Knash
+#. [side]: type=Troll, id=Krog
+#. [side]: type=Troll Warrior, id=Thung
+#. [side]: type=Troll, id=Franik
+#. [side]: type=Troll, id=Henie
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:71
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:85
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:141
@@ -780,8 +780,8 @@ msgstr "Knash"
 msgid "Krog"
 msgstr "Krog"
 
-#. [unit]: type=Dwarvish Lord, id=Hamel
 #. [side]: type=Dwarvish Lord, id=Hamel
+#. [unit]: type=Dwarvish Lord, id=Hamel
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:105
 #: data/campaigns/Northern_Rebirth/scenarios/02_02_Meeting_With_Dwarves.cfg:48
 #: data/campaigns/Northern_Rebirth/scenarios/03_To_the_Mines.cfg:42
@@ -791,14 +791,14 @@ msgstr "Krog"
 msgid "Hamel"
 msgstr "Hamel"
 
-#. [side]: type=Death Knight, id=Mal Barath
-#. [side]: type=Death Knight, id=Delzath
-#. [side]: type=Death Knight, id=Mal Tath
 #. [side]: type=Ancient Lich, id=Malifor
 #. [side]: type=Draug, id=Thorin
 #. [side]: type=Draug, id=Herlin
 #. [side]: type=Draug, id=Fervin
 #. [side]: type=Draug, id=Hellian
+#. [side]: type=Death Knight, id=Mal Barath
+#. [side]: type=Death Knight, id=Delzath
+#. [side]: type=Death Knight, id=Mal Tath
 #. [side]: type=Death Knight, id=Hettel
 #. [side]: type=Death Knight, id=Tervor
 #. [side]: type=Death Knight, id=Author
@@ -1592,8 +1592,8 @@ msgstr ""
 msgid "Ahahahaha! Yes, smash the skeletons! Smash them!"
 msgstr ""
 
-#. [message]: speaker=Tallin
 #. [message]: role=Supporter
+#. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_02_Meeting_With_Dwarves.cfg:176
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:184
 msgid "..."
@@ -1697,9 +1697,9 @@ msgstr ""
 "Když konečně Tallin a jeho společníci dorazili k dolům, nebyli zklamáni."
 
 #. [side]
-#. [side]: type=Elvish Avenger, id=Sisal
 #. [side]: type=Lieutenant, id=Tallin
 #. [side]: type=Dwarvish Lord, id=Hamel
+#. [side]: type=Elvish Avenger, id=Sisal
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:29
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:32
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:162
@@ -1719,8 +1719,8 @@ msgstr ""
 msgid "Alliance"
 msgstr "Aliance"
 
-#. [unit]: type=Ancient Lich, id=Malifor
 #. [side]: type=Ancient Lich, id=Malifor
+#. [unit]: type=Ancient Lich, id=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:49
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:53
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:249
@@ -2384,9 +2384,9 @@ msgstr ""
 "Ech, to přece nejde. Nemluvme tu o dluzích; raději si podejme ruce jako "
 "spojenci a pracujme pro společný cíl — obnovu Severních zemí."
 
+#. [message]: id=Elenia
 #. [message]: speaker=Father Morvin
 #. [message]: speaker=Sister Thera
-#. [message]: id=Elenia
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:624
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:754
 #: data/campaigns/Northern_Rebirth/scenarios/14a_Epilogue.cfg:275
@@ -3670,8 +3670,8 @@ msgstr ""
 "MUK! AŤ VÁŠ LID NIKDY NENÍ SVOBODNÝ! AŤ VÁS VŠICHNI VAŠI BLÍZCÍ A DRAZÍ "
 "OPUSTÍ! KÉŽ BLESKY UHODÍ DO VAŠICH HLAV! AŤ..."
 
-#. [message]: speaker=Sister Thera
 #. [message]: speaker=Tallin
+#. [message]: speaker=Sister Thera
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2665
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:468
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:677
@@ -3687,8 +3687,8 @@ msgstr ""
 "VZÝVÁM ZEM, ABY SE OTEVŘELA A POHLTILA VÁS! AŤ VÁM VYPADAJÍ VŠECHNY ZUBY! AŤ "
 "SE Z VÁS STANOU SLABÍ VYCHRTLÍ STARCI! AŤ..."
 
-#. [message]: speaker=Father Morvin
 #. [message]: speaker=second_unit
+#. [message]: speaker=Father Morvin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2685
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:483
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:692
@@ -4111,9 +4111,9 @@ msgstr ""
 "Bylo dohodnuto, že Tallinovi muži vyjdou nepříteli vstříc, zatímco Hamelovi "
 "budou udržovat únikové cesty do jeskyní."
 
-#. [side]: type=Great Mage, id=Camerin
 #. [side]
 #. [side]: type=Dwarvish Lord, id=Stalrag
+#. [side]: type=Great Mage, id=Camerin
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:43
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:130
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:148
@@ -4123,19 +4123,19 @@ msgstr ""
 msgid "Knalgans"
 msgstr "Obyvatelé Knalgy"
 
-#. [side]: type=Orcish Warlord, id=Atul
 #. [side]
 #. [side]: type=Orcish Warlord, id=Drung
 #. [side]: type=Orcish Warlord, id=Poul
+#. [side]: type=Orcish Warlord, id=Ha'Tuil
+#. [side]: type=Orcish Warlord, id=Ar'Muff
+#. [side]: type=Orcish Warlord, id=Calter
+#. [side]: type=Orcish Warlord, id=Halter
+#. [side]: type=Orcish Warlord, id=Atul
 #. [side]: type=Troll Warrior, id=Gore
 #. [side]: type=Orcish Warlord, id=Carron
 #. [side]: type=Orcish Warlord, id=Rash
 #. [side]: type=Orcish Warlord, id=Al'Mar
 #. [side]: type=Orcish Warlord, id=Ha'Tang
-#. [side]: type=Orcish Warlord, id=Ha'Tuil
-#. [side]: type=Orcish Warlord, id=Ar'Muff
-#. [side]: type=Orcish Warlord, id=Calter
-#. [side]: type=Orcish Warlord, id=Halter
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:57
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:87
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:109
@@ -4306,8 +4306,8 @@ msgstr "Ale přátelé, to není vše. GENERÁLOVÉ, POVOLEJTE ZÁLOHY!"
 msgid "Oh yeah!"
 msgstr "Jóóóóó!"
 
-#. [message]: speaker=Malifor
 #. [message]: id=Poul
+#. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:392
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:294
 msgid "HAHAHA!"
@@ -4886,8 +4886,8 @@ msgstr ""
 msgid "(<i>Giggle</i>) Something like that."
 msgstr "(<i>Chichi</i>) Něco podobného."
 
-#. [story]
 #. [message]: speaker=Tallin
+#. [story]
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:91
 #: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:170
 msgid "(<i>Rolls eyes</i>)"
@@ -4971,8 +4971,8 @@ msgstr "Tak to zařídíme. Kde přesně je ten průsmyk?"
 msgid "And so Tallin and his party set out to secure the help of the mages."
 msgstr "A tak se Tallin s přáteli vydali zajistit pomoc mágů."
 
-#. [unit]: type=Dwarvish Lord, id=Stalrag
 #. [side]: type=Dwarvish Lord, id=Stalrag
+#. [unit]: type=Dwarvish Lord, id=Stalrag
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:153
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:107
 #: data/campaigns/Northern_Rebirth/utils/utils.cfg:107
@@ -4984,17 +4984,17 @@ msgstr "Stalrag"
 msgid "Liches"
 msgstr ""
 
-#. [unit]: type=Ancient Lich, id=Ro'Arthian
-#. [side]: type=Ancient Lich, id=Ro'Arthian
 #. [modify_side]
+#. [side]: type=Ancient Lich, id=Ro'Arthian
+#. [unit]: type=Ancient Lich, id=Ro'Arthian
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:218
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:121
 #: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:398
 msgid "Ro’Arthian"
 msgstr "Ro’Arthian"
 
-#. [unit]: type=Lich, id=Ro'Sothian
 #. [modify_side]
+#. [unit]: type=Lich, id=Ro'Sothian
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:257
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:638
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:796
@@ -5477,10 +5477,10 @@ msgstr ""
 "Počkat! Talline, navrhuješ, abychom opustili své domovy a přenechali je "
 "napospas těmhle bídným mágům?!"
 
-#. [message]: speaker=Ro'Arthian
-#. [message]: speaker=Ro'Sothian
-#. [message]: speaker=Eryssa
 #. [message]: id=Ro'Sothian
+#. [message]: speaker=Ro'Sothian
+#. [message]: speaker=Ro'Arthian
+#. [message]: speaker=Eryssa
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:838
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1037
 #: data/campaigns/Northern_Rebirth/scenarios/11a_The_Eastern_Flank.cfg:506
@@ -6181,8 +6181,8 @@ msgstr ""
 msgid "INTRUDERS! KILL THEM!!"
 msgstr "NARUŠITELÉ! ZABTE JE!!"
 
-#. [unit]: type=Elvish Sorceress, id=Eryssa
 #. [modify_side]
+#. [unit]: type=Elvish Sorceress, id=Eryssa
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:339
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:351
 #: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:435

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-17 18:29 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2017-05-28 11:03+0800\n"
 "Last-Translator: Brian lee <haiyuan.2007@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
@@ -59,8 +59,8 @@ msgstr ""
 msgid "The Elves Besieged"
 msgstr "精灵受困"
 
-#. [side]: type=Spearman, id=Konrad
 #. [unit]: type=Spearman, id=Konrad
+#. [side]: type=Spearman, id=Konrad
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:34
 #: data/ai/micro_ais/scenarios/patrols.cfg:92
 msgid "Konrad"
@@ -85,10 +85,10 @@ msgstr "黎伐多"
 msgid "Urug-Telfar"
 msgstr "乌鲁戈-特尔法"
 
+#. [side]: id=Vanak, type=Orcish Ruler
 #. [side]: type=Orcish Warlord, id=Urug-Telfar
 #. [side]: type=Orcish Warlord, id=Knafa-Tan
 #. [side]: type=Orcish Warlord, id=Maga-Knafa
-#. [side]: id=Vanak, type=Orcish Ruler
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:98
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:112
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:130
@@ -297,8 +297,8 @@ msgstr ""
 "林动物（鹿群、长牙动物、兔子）知道它们之间没有威胁并且远离彼此， 一只训练有素"
 "的牧羊犬表现出非常好的自控能力。"
 
-#. [test]: id=animals
 #. [event]
+#. [test]: id=animals
 #: data/ai/micro_ais/scenarios/animals.cfg:27
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:45
 msgid "Animals"
@@ -309,10 +309,10 @@ msgstr "动物们"
 msgid "Rutburt"
 msgstr ""
 
-#. [side]: id=Rutburt, type=Outlaw
 #. [side]: type=General, id=leader2
 #. [side]: type=Lieutenant, id=leader5
 #. [side]: type=Lieutenant, id=leader6
+#. [side]: id=Rutburt, type=Outlaw
 #: data/ai/micro_ais/scenarios/animals.cfg:48
 #: data/ai/micro_ais/scenarios/goto.cfg:43
 #: data/ai/micro_ais/scenarios/goto.cfg:93
@@ -341,8 +341,8 @@ msgstr "蜘蛛"
 msgid "Yetis"
 msgstr "雪人"
 
-#. [side]
 #. [event]
+#. [side]
 #. [test]: id=wolves
 #: data/ai/micro_ais/scenarios/animals.cfg:119
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:48
@@ -355,10 +355,10 @@ msgstr "狼群"
 msgid "Whelps"
 msgstr "幼兽"
 
-#. [set_menu_item]: id=m01_end_animals
 #. [event]
 #. [set_menu_item]: id=m04_end_animals
 #. [set_menu_item]: id=m01_end_swarm
+#. [set_menu_item]: id=m01_end_animals
 #. [set_menu_item]: id=m01_end_wolves
 #: data/ai/micro_ais/scenarios/animals.cfg:209
 #: data/ai/micro_ais/scenarios/dragon.cfg:48
@@ -371,8 +371,8 @@ msgstr "幼兽"
 msgid "End Scenario"
 msgstr "结束场景"
 
-#. [command]
 #. [then]
+#. [command]
 #: data/ai/micro_ais/scenarios/animals.cfg:221
 #: data/ai/micro_ais/scenarios/bottleneck_defense.cfg:184
 #: data/ai/micro_ais/scenarios/goto.cfg:394
@@ -582,8 +582,8 @@ msgid ""
 "I may have fallen, but we will continue to defend the pass to the last man!"
 msgstr "我可能倒下，但我们将持续守卫这个防线到最后一个战士！"
 
-#. [test]: id=dragon
 #. [event]
+#. [test]: id=dragon
 #: data/ai/micro_ais/scenarios/dragon.cfg:5
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:54
 msgid "Dragon"
@@ -1596,9 +1596,9 @@ msgstr ""
 msgid "Vanak"
 msgstr ""
 
-#. [event]
 #. [side]
 #. [unit]: type=Dragoon, id=messenger
+#. [event]
 #: data/ai/micro_ais/scenarios/messenger_escort.cfg:37
 #: data/ai/micro_ais/scenarios/messenger_escort.cfg:71
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:72
@@ -1678,8 +1678,8 @@ msgstr ""
 msgid "Nooo!  All is lost. We will never stop the orcs now!"
 msgstr ""
 
-#. [test]: id=patrols
 #. [event]
+#. [test]: id=patrols
 #: data/ai/micro_ais/scenarios/patrols.cfg:5
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:75
 msgid "Patrols"
@@ -1840,8 +1840,8 @@ msgstr ""
 msgid "Let's go home, chaps."
 msgstr ""
 
-#. [test]: id=protect_unit
 #. [event]
+#. [test]: id=protect_unit
 #: data/ai/micro_ais/scenarios/protect_unit.cfg:5
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:63
 msgid "Protect Unit"
@@ -1982,8 +1982,8 @@ msgstr ""
 msgid "I made it"
 msgstr ""
 
-#. [event]
 #. [test]: id=recruiting
+#. [event]
 #: data/ai/micro_ais/scenarios/recruiting.cfg:5
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:78
 msgid "Recruiting"

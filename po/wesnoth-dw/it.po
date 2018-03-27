@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2017-06-05 18:54+0300\n"
 "Last-Translator: Antonio 'Antro' Rosella <arosella@yahoo.com>\n"
 "Language-Team: Italiano <wesnoth-l10n-it@cirulla.net>\n"
@@ -678,8 +678,8 @@ msgstr ""
 msgid "If it does not attack, do not kill it. Let us see if it follows us."
 msgstr "Se non attacca, non ucciderlo. Vediamo se ci segue."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:02 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2017-06-10 17:02+0800\n"
 "Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
@@ -141,9 +141,9 @@ msgstr ""
 msgid "The Morning After"
 msgstr "天亮以后"
 
+#. [side]: id=Kaleh, type=Desert Fighter
 #. [side]
 #. [side]: id=Kaleh, type=Quenoth Youth
-#. [side]: id=Kaleh, type=Desert Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:30
 #: data/campaigns/Under_the_Burning_Suns/scenarios/02_Across_the_Harsh_Sands.cfg:34
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:41
@@ -191,10 +191,10 @@ msgstr "奎诺精灵"
 msgid "Monsters"
 msgstr "怪物"
 
-#. [side]
 #. [side]: id=Panok, type=Direwolf Rider, type=Goblin Knight
 #. [side]: id=Turg, type=Orcish Warrior, type=Orcish Warlord
 #. [side]: id=Ug'lok, type=Orcish Warrior, type=Orcish Warlord
+#. [side]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:74
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:56
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:102
@@ -416,57 +416,57 @@ msgstr "伽拉克死亡"
 msgid "Death of Zhul"
 msgstr "朱尔死亡"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Fighter
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:151
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:151
 msgid "Lrea"
 msgstr "瑞"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Fighter
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:156
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:156
 msgid "Piyru"
 msgstr "皮鲁"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Archer
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:161
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:161
 msgid "Frea"
 msgstr "弗雷"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Archer
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:166
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:166
 msgid "Danu"
 msgstr "达努"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Hunter
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:171
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:172
 msgid "Hamuil"
 msgstr "哈缪"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Hunter
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:176
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:177
 msgid "Anioh"
 msgstr "艾尼欧"
 
-#. [value]: type=Tauroch Rider
 #. [value]: type=Desert Scout
+#. [value]: type=Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:181
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:183
 msgid "Vemuil"
 msgstr "瓦缪"
 
-#. [value]: type=Tauroch Rider
 #. [value]: type=Desert Scout
+#. [value]: type=Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:186
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:188
 msgid "Taliu"
@@ -602,8 +602,8 @@ msgstr "希拉"
 msgid "Kaleh, Nym, help us!"
 msgstr "卡勒， 妮慕， 来帮我们！"
 
-#. [message]: speaker=Nym
 #. [message]: speaker=Kaleh
+#. [message]: speaker=Nym
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:351
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:545
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:744
@@ -3216,8 +3216,8 @@ msgid ""
 "should go unpunished."
 msgstr "为了你的重要同胞，你很拼命，年轻的精灵。不过，逞英雄是要付出代价的。"
 
-#. [message]: id=Ystara,Azkotep
 #. [message]: speaker=Ystara
+#. [message]: id=Ystara,Azkotep
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:1928
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/03_Stirring_in_the_Night.cfg:1923
 msgid "A token to remember us by..."
@@ -3235,8 +3235,8 @@ msgstr "啊啊啊！"
 msgid "He just collapsed!"
 msgstr "他瓦解了！"
 
-#. [message]: id=Ystara,Azkotep
 #. [message]: speaker=Ystara
+#. [message]: id=Ystara,Azkotep
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:1951
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/03_Stirring_in_the_Night.cfg:1946
 msgid ""
@@ -3851,9 +3851,9 @@ msgstr ""
 "见。我不知道我在这里干什么。某种神秘的东西让我不自觉地来到这里，我有种不祥的"
 "预感。"
 
-#. [unit]: type=Dark Assassin1, id=Cloaked Figure
-#. [unit]: type=Dark Assassin2, id=Cloaked Figure
 #. [unit]: type=Dark Assassin3, id=Cloaked Figure
+#. [unit]: type=Dark Assassin2, id=Cloaked Figure
+#. [unit]: type=Dark Assassin1, id=Cloaked Figure
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:932
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2387
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:2335
@@ -4001,22 +4001,22 @@ msgstr "探索地下世界"
 msgid "Defeat enemy leaders"
 msgstr "击败敌方首领"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Fighter
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:363
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:363
 msgid "Nantheos"
 msgstr "南斯奥"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Archer
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:375
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:375
 msgid "Sylestria"
 msgstr "塞拉史翠"
 
-#. [unit]: type=Quenoth Flanker
 #. [unit]: type=Desert Ranger
+#. [unit]: type=Quenoth Flanker
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:396
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:396
 msgid "Rygar"
@@ -4266,8 +4266,8 @@ msgstr "蜘蛛不是昆虫。"
 msgid "Thanks for the clarification."
 msgstr "谢谢提醒。"
 
-#. [event]
 #. [unit]: type=Dwarvish Fighter, id=Wounded Dwarf
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:685
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:627
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:685
@@ -4479,8 +4479,8 @@ msgid ""
 "together, we must follow Zurg."
 msgstr "看来我们的工作还没有结束。好吧，集合队伍，我们得跟着泽格走。"
 
-#. [event]
 #. [unit]: type=Dwarvish Pathfinder, id=Grimnir
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:947
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:270
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:1672
@@ -5366,10 +5366,10 @@ msgstr "你的人一到达指定位置，我就会启动机关。"
 msgid "Troll Brute"
 msgstr "狂暴巨魔"
 
+#. [event]
 #. [unit]: type=Troll
 #. [unit]: type=Troll Rocklobber
 #. [unit]: type=Troll Whelp
-#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:490
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:493
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:497
@@ -5438,8 +5438,8 @@ msgstr "有入侵者！杀啊！"
 msgid "Tell us where your leader is hiding!"
 msgstr "你们的首领藏在哪里！"
 
-#. [message]: speaker=Kaleh
 #. [message]: speaker=Wounded Dwarf
+#. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:641
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:582
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/06a_In_the_Tunnels_of_Trolls.cfg:641
@@ -6019,9 +6019,9 @@ msgid "Enemies"
 msgstr "敌人"
 
 #. [side]: id=King Thurongar, type=Dwarvish Lord
+#. [side]: id=Melusand, type=Mermaid Diviner
 #. [side]: id=Great Leader Darmog, type=Great Troll
 #. [side]
-#. [side]: id=Melusand, type=Mermaid Diviner
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:77
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:53
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:54
@@ -7584,8 +7584,8 @@ msgid "Wait, did you feel that?"
 msgstr "等下，你们感觉到什么了吗？"
 
 #. [message]: speaker=Nym
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:509
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1747
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:507
@@ -7723,22 +7723,22 @@ msgid ""
 "but to fight our way through the chaos."
 msgstr "好，我们也想离开这里。看样子除了在这混乱中杀出一条路来，我们别无选择。"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:868
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:865
 msgid "Bellerin"
 msgstr "贝勒宁"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:878
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:875
 msgid "Durth"
 msgstr "德斯"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:888
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:885
 msgid "Othgar"
@@ -10576,15 +10576,15 @@ msgstr "在第十六回合前至少救出两个人鱼"
 msgid "Three merfolk must survive"
 msgstr "至少三个人鱼存活"
 
-#. [unit]: type=Quenoth Fighter, id=Ulothanir
 #. [unit]: type=Desert Fighter, id=Ulothanir
+#. [unit]: type=Quenoth Fighter, id=Ulothanir
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:354
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:352
 msgid "Ulothanir"
 msgstr "乌洛珊"
 
-#. [unit]: type=Quenoth Scout, id=Elonea
 #. [unit]: type=Desert Archer, id=Elonea
+#. [unit]: type=Quenoth Scout, id=Elonea
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:367
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:365
 msgid "Elonea"
@@ -11433,8 +11433,8 @@ msgstr ""
 "那是钢铁三巨头之一。他们很少离开他们的殿堂。他们一般都让他们的手下来干肮脏的"
 "活。"
 
-#. [unit]: type=Quenoth Champion, id=Tanstafaal
 #. [unit]: type=Desert Captain, id=Tanstafaal
+#. [unit]: type=Quenoth Champion, id=Tanstafaal
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1668
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1666
 msgid "Tanstafaal"
@@ -11477,15 +11477,15 @@ msgid ""
 "Behold, our goddess has returned to us. All bow down to Eloh, our savior!"
 msgstr "安静，我们的女神回来了。膜拜我们的救主伊洛！"
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1722
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1716
 msgid "The Goddess!"
 msgstr "女神！"
 
-#. [message]
 #. [message]: type=Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1727
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1721
 msgid "Forgive me my sins!"
@@ -11513,9 +11513,9 @@ msgid ""
 msgstr ""
 "我来告诉你们一个坏消息：你们中有一个人背叛了我，他是你们遭受磨难的原因。"
 
-#. [message]
 #. [message]: speaker=Zhul
 #. [message]: type=Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1752
 #: data/campaigns/Under_the_Burning_Suns/scenarios/10_Speaking_with_the_Fishes.cfg:329
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1743
@@ -11523,8 +11523,8 @@ msgstr ""
 msgid "No!"
 msgstr "不！"
 
-#. [message]
 #. [message]: type=Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1757
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1748
 msgid "Who?"
@@ -11604,8 +11604,8 @@ msgstr ""
 "的矮人。同样地，在我们从洞穴里逃出来的时候，她又向我显现，让我服从人类，否则"
 "她就要毁了我。真正的伊洛绝不会威胁我们中的任何人，也不会命令我们去做任何事。"
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8, Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1788
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1779
 msgid ""
@@ -11655,8 +11655,8 @@ msgstr ""
 "的巨魔。同样地，在我们从洞穴里逃出来的时候，她又向我显现，让我服从人类，否则"
 "她就要毁了我。真正的伊洛绝不会威胁我们中的任何人，也不会命令我们去做任何事。"
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8, Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1803
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1794
 msgid ""
@@ -13755,15 +13755,15 @@ msgstr "被困的人鱼"
 msgid "Kaleh must capture a keep"
 msgstr "卡勒 必须占领一个要塞"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Hunter
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:366
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/11_Battle_for_Zocthanol_Isle.cfg:366
 msgid "Eagath"
 msgstr "伊格斯"
 
-#. [unit]: type=Quenoth Scout
 #. [unit]: type=Desert Archer
+#. [unit]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:378
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/11_Battle_for_Zocthanol_Isle.cfg:378
 msgid "Alusan"
@@ -14552,15 +14552,15 @@ msgid ""
 "and despair!"
 msgstr "你是这么认为的吗？我会证明你是错的。看看外面你的族人，绝望吧！"
 
-#. [unit]: type=Quenoth Fighter, id=Anarion
 #. [unit]: type=Desert Fighter, id=Anarion
+#. [unit]: type=Quenoth Fighter, id=Anarion
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:461
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:461
 msgid "Anarion"
 msgstr "艾纳瑞"
 
-#. [unit]: type=Tauroch Rider, id=Zylea
 #. [unit]: type=Desert Archer, id=Zylea
+#. [unit]: type=Tauroch Rider, id=Zylea
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:488
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:488
 msgid "Zylea"
@@ -14677,8 +14677,8 @@ msgstr ""
 "荒唐，我怎么会是那个蠢货，我才不会惦记着复仇这种无关紧要的事，我也不需要凡人"
 "来履行我的意志。不需要，我要亲自杀了你们！"
 
-#. [message]: type=Quenoth Fighter, Tauroch Rider
 #. [message]: type=Desert Fighter, Desert Archer
+#. [message]: type=Quenoth Fighter, Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:680
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:680
 msgid "Huh? What happened?"
@@ -14691,8 +14691,8 @@ msgid ""
 "Her spell has been broken. But I don’t think we have won yet. Come aid us!"
 msgstr "她的咒语解除了，但我们还没有胜利。来帮我们！"
 
-#. [message]: type=Quenoth Fighter, Tauroch Rider
 #. [message]: type=Desert Fighter, Desert Archer
+#. [message]: type=Quenoth Fighter, Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:690
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:690
 msgid "Yes priestess."
@@ -15797,15 +15797,15 @@ msgstr "探索外面"
 msgid "If a human messenger escapes the valley"
 msgstr "人类信使逃脱山谷"
 
-#. [unit_type]: id=Corrupted Elf, race=elf
 #. [unit_type]: id=Corrupted Quenoth Elf, race=elf
+#. [unit_type]: id=Corrupted Elf, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Corrupted_Elf.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Corrupted_Elf.cfg:5
 msgid "Corrupted Elf"
 msgstr "堕落精灵"
 
-#. [unit_type]: id=Corrupted Elf, race=elf
 #. [unit_type]: id=Corrupted Quenoth Elf, race=elf
+#. [unit_type]: id=Corrupted Elf, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Corrupted_Elf.cfg:17
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Corrupted_Elf.cfg:19
 msgid ""
@@ -15864,8 +15864,8 @@ msgstr ""
 msgid "female^Desert Avenger"
 msgstr "沙漠复仇者"
 
-#. [unit_type]: id=Desert Captain, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Captain, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Captain.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:480
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:491
@@ -15882,8 +15882,8 @@ msgstr ""
 "沙漠队长掌握指挥的艺术，他们能提升相邻的级别为1的己方单位的能力。沙漠队长更喜"
 "欢和敌人近战，但他们也接受过弓箭训练。"
 
-#. [unit_type]: id=Desert Champion, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Champion, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Champion.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:548
 msgid "Desert Champion"
@@ -15914,8 +15914,8 @@ msgstr ""
 "沙漠德鲁伊是沙漠上强力的大师。她们精于诱捕大意的敌人，她们还能凭借自己对沙漠"
 "植物的渊博知识来治疗同盟。德鲁伊是精灵族群里重要的支援单位。"
 
-#. [unit_type]: id=Desert Fighter, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Fighter, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Fighter.cfg:5
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:420
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:433
@@ -15934,8 +15934,8 @@ msgstr ""
 "沙漠战士是奎诺军中的主力。他们同时接受剑术和弓道的训练，就像其他大部分同胞一"
 "样，他们更喜欢用剑而不是弓。这些精灵脚力不错，在开阔的沙地里他们效率最高。"
 
-#. [unit_type]: id=Desert Hero, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Hero, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Hero.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:526
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:537
@@ -15997,8 +15997,8 @@ msgstr ""
 msgid "bolas"
 msgstr "链球"
 
-#. [female]
 #. [unit_type]: id=Nym Hunter
+#. [female]
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Hunter.cfg:77
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Nym.cfg:77
 msgid "female^Desert Hunter"
@@ -16025,8 +16025,8 @@ msgstr ""
 msgid "female^Desert Marksman"
 msgstr "沙漠狙击手"
 
-#. [unit_type]: id=Desert Marshal, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Marshal, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Marshal.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:502
 msgid "Desert Marshal"
@@ -16200,8 +16200,8 @@ msgstr ""
 "沙漠仙子是精灵中献身自然和仙境的存在。背后伸出的蜻蜓般的翅膀让她们光彩夺目。"
 "她们可以轻松地从空中掠过几乎所有的地形。"
 
-#. [unit_type]: id=Desert Shyde, race=elf
 #. [unit_type]: id=Desert Star
+#. [unit_type]: id=Desert Shyde, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Shyde.cfg:23
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Star.cfg:25
 msgid "SPECIAL_NOTE^ This unit can fly across any terrain except deep water."
@@ -16360,10 +16360,10 @@ msgstr ""
 msgid "Kaleh of the Quenoth Elves"
 msgstr "奎诺精灵卡勒"
 
-#. [unit_type]: id=Kaleh, race=elf
 #. [unit_type]: id=Quenoth Youth, race=elf
 #. [unit_type]: id=Quenoth Youth 2, race=elf
 #. [unit_type]: id=Quenoth Youth 3, race=elf
+#. [unit_type]: id=Kaleh, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:315
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:419
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:471
@@ -16424,8 +16424,8 @@ msgid "Central Body"
 msgstr "中枢躯体"
 
 #. [unit_type]: id=Central Body, race=monster
-#. [unit_type]: id=Crawling Horror, race=monster
 #. [unit_type]: id=Pulsing Spire, race=monster
+#. [unit_type]: id=Crawling Horror, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Body.cfg:39
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Minion.cfg:26
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Spire.cfg:33
@@ -16616,8 +16616,8 @@ msgid "Naga Guardian"
 msgstr "娜迦守卫"
 
 #. [unit_type]: id=Naga Guardian, race=naga
-#. [unit_type]: id=Naga Sentinel, race=naga
 #. [unit_type]: id=Naga Warden, race=naga
+#. [unit_type]: id=Naga Sentinel, race=naga
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Guardian.cfg:21
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Sentinel.cfg:22
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Warden.cfg:21
@@ -17124,11 +17124,11 @@ msgstr ""
 "就像船帆被风吹张起一样，一个灵魂被邪恶的魔法所困，这种监狱能够带来一个永不消"
 "逝的仆从，主人可以把他部署在任意地方。"
 
-#. [unit_type]: id=EGhost
+#. [unit_type]: id=EShadow
 #. [unit_type]: id=ESpectre
 #. [unit_type]: id=EWraith
 #. [unit_type]: id=ENightgaunt
-#. [unit_type]: id=EShadow
+#. [unit_type]: id=EGhost
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Ghost.cfg:18
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Nightgaunt.cfg:20
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Shadow.cfg:23

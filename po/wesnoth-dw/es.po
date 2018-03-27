@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2018-02-23 22:30+0100\n"
 "Last-Translator: Pepe <donpepe1963@gmail.com>\n"
 "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
@@ -661,8 +661,8 @@ msgstr "¡Espera un momento! ¿Crees que, sin su amo, podría desear uno nuevo?"
 msgid "If it does not attack, do not kill it. Let us see if it follows us."
 msgstr "Si no ataca, no lo matéis. Veamos si nos sigue."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

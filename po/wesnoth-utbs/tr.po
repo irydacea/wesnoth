@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-utbs\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:02 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2009-03-05 00:51+0200\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@belgeler.gen.tr>\n"
 "Language-Team: Turkish <wesnoth-tr@googlegroups.com>\n"
@@ -148,9 +148,9 @@ msgstr ""
 msgid "The Morning After"
 msgstr "Sabahleyin"
 
+#. [side]: id=Kaleh, type=Desert Fighter
 #. [side]
 #. [side]: id=Kaleh, type=Quenoth Youth
-#. [side]: id=Kaleh, type=Desert Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:30
 #: data/campaigns/Under_the_Burning_Suns/scenarios/02_Across_the_Harsh_Sands.cfg:34
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:41
@@ -200,10 +200,10 @@ msgstr "Kuyenot Elflerinden Kaleh"
 msgid "Monsters"
 msgstr "Yaratıklar"
 
-#. [side]
 #. [side]: id=Panok, type=Direwolf Rider, type=Goblin Knight
 #. [side]: id=Turg, type=Orcish Warrior, type=Orcish Warlord
 #. [side]: id=Ug'lok, type=Orcish Warrior, type=Orcish Warlord
+#. [side]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:74
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:56
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:102
@@ -430,57 +430,57 @@ msgstr "Kaleh’in ölümü"
 msgid "Death of Zhul"
 msgstr "Kaleh’in ölümü"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Fighter
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:151
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:151
 msgid "Lrea"
 msgstr "Lereya"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Fighter
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:156
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:156
 msgid "Piyru"
 msgstr "Piyru"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Archer
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:161
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:161
 msgid "Frea"
 msgstr "Fereya"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Archer
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:166
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:166
 msgid "Danu"
 msgstr "Danu"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Hunter
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:171
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:172
 msgid "Hamuil"
 msgstr "Hamuil"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Hunter
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:176
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:177
 msgid "Anioh"
 msgstr "Aniyoh"
 
-#. [value]: type=Tauroch Rider
 #. [value]: type=Desert Scout
+#. [value]: type=Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:181
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:183
 msgid "Vemuil"
 msgstr "Vemuil"
 
-#. [value]: type=Tauroch Rider
 #. [value]: type=Desert Scout
+#. [value]: type=Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:186
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:188
 msgid "Taliu"
@@ -632,8 +632,8 @@ msgstr "Seyla"
 msgid "Kaleh, Nym, help us!"
 msgstr "Kaleh, Nim, bize yardım edin!"
 
-#. [message]: speaker=Nym
 #. [message]: speaker=Kaleh
+#. [message]: speaker=Nym
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:351
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:545
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:744
@@ -3525,8 +3525,8 @@ msgstr ""
 "Kıymetli halkını korumak için zorlu bir savaş verdin, genç elf. Hiçbir "
 "iyilik cezasız kalmaz."
 
-#. [message]: id=Ystara,Azkotep
 #. [message]: speaker=Ystara
+#. [message]: id=Ystara,Azkotep
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:1928
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/03_Stirring_in_the_Night.cfg:1923
 msgid "A token to remember us by..."
@@ -3545,8 +3545,8 @@ msgstr "Aaauuffff!"
 msgid "He just collapsed!"
 msgstr "Balon gibi söndü!"
 
-#. [message]: id=Ystara,Azkotep
 #. [message]: speaker=Ystara
+#. [message]: id=Ystara,Azkotep
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:1951
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/03_Stirring_in_the_Night.cfg:1946
 msgid ""
@@ -4212,9 +4212,9 @@ msgstr ""
 "anlaşılmaz bir şey beni buraya gelmeye zorladı fakat benden ne yapmamı "
 "istediğini bilmiyorum."
 
-#. [unit]: type=Dark Assassin1, id=Cloaked Figure
-#. [unit]: type=Dark Assassin2, id=Cloaked Figure
 #. [unit]: type=Dark Assassin3, id=Cloaked Figure
+#. [unit]: type=Dark Assassin2, id=Cloaked Figure
+#. [unit]: type=Dark Assassin1, id=Cloaked Figure
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:932
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2387
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:2335
@@ -4372,22 +4372,22 @@ msgstr "Yeraltını Keşfetmek"
 msgid "Defeat enemy leaders"
 msgstr "Trol liderini yen"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Fighter
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:363
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:363
 msgid "Nantheos"
 msgstr "Nantenos"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Archer
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:375
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:375
 msgid "Sylestria"
 msgstr "Silestriya"
 
-#. [unit]: type=Quenoth Flanker
 #. [unit]: type=Desert Ranger
+#. [unit]: type=Quenoth Flanker
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:396
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:396
 msgid "Rygar"
@@ -4677,8 +4677,8 @@ msgstr "Örümcek böcek değildir."
 msgid "Thanks for the clarification."
 msgstr "Açıklama için teşekkürler."
 
-#. [event]
 #. [unit]: type=Dwarvish Fighter, id=Wounded Dwarf
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:685
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:627
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:685
@@ -4916,8 +4916,8 @@ msgstr ""
 "Henüz işimiz bitmemiş görünüyor. Pekala, herkes buraya! Zurg’u takip "
 "ediyoruz."
 
-#. [event]
 #. [unit]: type=Dwarvish Pathfinder, id=Grimnir
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:947
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:270
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:1672
@@ -5890,10 +5890,10 @@ msgstr "Askerleriniz yerlerini aldığında duvarı uçuracağım."
 msgid "Troll Brute"
 msgstr "Zalim Trol"
 
+#. [event]
 #. [unit]: type=Troll
 #. [unit]: type=Troll Rocklobber
 #. [unit]: type=Troll Whelp
-#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:490
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:493
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:497
@@ -5967,8 +5967,8 @@ msgstr "Düşmanlar! Hepsini öldürün!"
 msgid "Tell us where your leader is hiding!"
 msgstr "Liderinizin gizlendiği yeri söyle!"
 
-#. [message]: speaker=Kaleh
 #. [message]: speaker=Wounded Dwarf
+#. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:641
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:582
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/06a_In_the_Tunnels_of_Trolls.cfg:641
@@ -6594,9 +6594,9 @@ msgid "Enemies"
 msgstr "Düşmanlar"
 
 #. [side]: id=King Thurongar, type=Dwarvish Lord
+#. [side]: id=Melusand, type=Mermaid Diviner
 #. [side]: id=Great Leader Darmog, type=Great Troll
 #. [side]
-#. [side]: id=Melusand, type=Mermaid Diviner
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:77
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:53
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:54
@@ -8318,8 +8318,8 @@ msgid "Wait, did you feel that?"
 msgstr "Bekle. bunu hissettin mi?"
 
 #. [message]: speaker=Nym
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:509
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1747
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:507
@@ -8474,22 +8474,22 @@ msgstr ""
 "Pekala, biz de bir an önce buradan uzaklaşalım. Karışıklığa yol açmamak için "
 "onlarla döğüşmekten başka çaremiz yok gibi görünüyor."
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:868
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:865
 msgid "Bellerin"
 msgstr "Bellerin"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:878
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:875
 msgid "Durth"
 msgstr "Durt"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:888
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:885
 msgid "Othgar"
@@ -11587,15 +11587,15 @@ msgstr "16. ele kadar en az iki su adamını kurtar"
 msgid "Three merfolk must survive"
 msgstr "Üç su adamı hayatta kalmalı"
 
-#. [unit]: type=Quenoth Fighter, id=Ulothanir
 #. [unit]: type=Desert Fighter, id=Ulothanir
+#. [unit]: type=Quenoth Fighter, id=Ulothanir
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:354
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:352
 msgid "Ulothanir"
 msgstr "Ulotanir"
 
-#. [unit]: type=Quenoth Scout, id=Elonea
 #. [unit]: type=Desert Archer, id=Elonea
+#. [unit]: type=Quenoth Scout, id=Elonea
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:367
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:365
 msgid "Elonea"
@@ -12536,8 +12536,8 @@ msgstr ""
 "Demir üçlüden biriydi. Mabedlerinden nadiren çıkarlar. Kirli işlerini "
 "kölelerine yaptırmayı tercih ederler."
 
-#. [unit]: type=Quenoth Champion, id=Tanstafaal
 #. [unit]: type=Desert Captain, id=Tanstafaal
+#. [unit]: type=Quenoth Champion, id=Tanstafaal
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1668
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1666
 msgid "Tanstafaal"
@@ -12581,15 +12581,15 @@ msgid ""
 "Behold, our goddess has returned to us. All bow down to Eloh, our savior!"
 msgstr "İşte, tanrıçamız bize döndü. Herkes kurtarıcımız Eloh’a boyun eğecek!"
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1722
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1716
 msgid "The Goddess!"
 msgstr "Tanrıça!"
 
-#. [message]
 #. [message]: type=Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1727
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1721
 msgid "Forgive me my sins!"
@@ -12619,9 +12619,9 @@ msgstr ""
 "Size uğursuz haberlerle geldim. Sizlerden biri bana ihanet etti, o bir "
 "haindir."
 
-#. [message]
 #. [message]: speaker=Zhul
 #. [message]: type=Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1752
 #: data/campaigns/Under_the_Burning_Suns/scenarios/10_Speaking_with_the_Fishes.cfg:329
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1743
@@ -12629,8 +12629,8 @@ msgstr ""
 msgid "No!"
 msgstr "Hayır!"
 
-#. [message]
 #. [message]: type=Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1757
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1748
 msgid "Who?"
@@ -12718,8 +12718,8 @@ msgstr ""
 "bizden birini asla tehdit etmeyeceği gibi bize ne yapacağımızı da dikte "
 "etmeye çalışmazdı."
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8, Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1788
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1779
 #, fuzzy
@@ -12777,8 +12777,8 @@ msgstr ""
 "bizden birini asla tehdit etmeyeceği gibi bize ne yapacağımızı da dikte "
 "etmeye çalışmazdı."
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8, Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1803
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1794
 #, fuzzy
@@ -15122,15 +15122,15 @@ msgstr "Tutuklu Su Adamı"
 msgid "Kaleh must capture a keep"
 msgstr "Kaleh bir kaleyi ele geçirmeli"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Hunter
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:366
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/11_Battle_for_Zocthanol_Isle.cfg:366
 msgid "Eagath"
 msgstr "Egat"
 
-#. [unit]: type=Quenoth Scout
 #. [unit]: type=Desert Archer
+#. [unit]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:378
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/11_Battle_for_Zocthanol_Isle.cfg:378
 msgid "Alusan"
@@ -15987,15 +15987,15 @@ msgstr ""
 "Böyle mi düşünüyorsun? Yanlış düşündüğünü kanıtlayacağım. Halkına bak ve "
 "üzül!"
 
-#. [unit]: type=Quenoth Fighter, id=Anarion
 #. [unit]: type=Desert Fighter, id=Anarion
+#. [unit]: type=Quenoth Fighter, id=Anarion
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:461
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:461
 msgid "Anarion"
 msgstr "Anaryon"
 
-#. [unit]: type=Tauroch Rider, id=Zylea
 #. [unit]: type=Desert Archer, id=Zylea
+#. [unit]: type=Tauroch Rider, id=Zylea
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:488
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:488
 msgid "Zylea"
@@ -16114,8 +16114,8 @@ msgstr ""
 "Boş laf, Göründüğün kadar aptal değilmişsin, ama önemi yok. Ölümlüler bana "
 "bir şey yapamaz. Sizi kendim öldüreceğim!"
 
-#. [message]: type=Quenoth Fighter, Tauroch Rider
 #. [message]: type=Desert Fighter, Desert Archer
+#. [message]: type=Quenoth Fighter, Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:680
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:680
 msgid "Huh? What happened?"
@@ -16128,8 +16128,8 @@ msgid ""
 "Her spell has been broken. But I don’t think we have won yet. Come aid us!"
 msgstr "Büyüsü bozuldu. Ama henüz kazanmış sayılmayız. Bize yardıma gelin!"
 
-#. [message]: type=Quenoth Fighter, Tauroch Rider
 #. [message]: type=Desert Fighter, Desert Archer
+#. [message]: type=Quenoth Fighter, Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:690
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:690
 msgid "Yes priestess."
@@ -17353,15 +17353,15 @@ msgstr "Dışarsını Keşfet"
 msgid "If a human messenger escapes the valley"
 msgstr "Eğer vadiyi bir insan haberci terkederse"
 
-#. [unit_type]: id=Corrupted Elf, race=elf
 #. [unit_type]: id=Corrupted Quenoth Elf, race=elf
+#. [unit_type]: id=Corrupted Elf, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Corrupted_Elf.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Corrupted_Elf.cfg:5
 msgid "Corrupted Elf"
 msgstr "Ölmüş Elf"
 
-#. [unit_type]: id=Corrupted Elf, race=elf
 #. [unit_type]: id=Corrupted Quenoth Elf, race=elf
+#. [unit_type]: id=Corrupted Elf, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Corrupted_Elf.cfg:17
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Corrupted_Elf.cfg:19
 msgid ""
@@ -17421,8 +17421,8 @@ msgstr ""
 msgid "female^Desert Avenger"
 msgstr "Çöl İntikamcısı"
 
-#. [unit_type]: id=Desert Captain, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Captain, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Captain.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:480
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:491
@@ -17440,8 +17440,8 @@ msgstr ""
 "seviyeden dost birimlerin daha iyi döğüşmelerini sağlarlar. Çöl Yüzbaşıları "
 "yakın döğüşü tercih etseler de okçuluk konusunda da oldukça iyidirler."
 
-#. [unit_type]: id=Desert Champion, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Champion, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Champion.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:548
 msgid "Desert Champion"
@@ -17472,8 +17472,8 @@ msgstr ""
 "Çöl Rahipleri kumların güçlü efendileridir. Rahipler hem elfleri hem de "
 "müttefik birimleri tedavi edebilirler."
 
-#. [unit_type]: id=Desert Fighter, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Fighter, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Fighter.cfg:5
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:420
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:433
@@ -17493,8 +17493,8 @@ msgstr ""
 "hem de okçulukta eğitimlidirler. Kılıcı yaya tercih ederler. Açık kumlarda "
 "en iyi döğüşçü onlardır."
 
-#. [unit_type]: id=Desert Hero, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Hero, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Hero.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:526
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:537
@@ -17558,8 +17558,8 @@ msgstr ""
 msgid "bolas"
 msgstr "bola"
 
-#. [female]
 #. [unit_type]: id=Nym Hunter
+#. [female]
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Hunter.cfg:77
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Nym.cfg:77
 msgid "female^Desert Hunter"
@@ -17588,8 +17588,8 @@ msgstr ""
 msgid "female^Desert Marksman"
 msgstr "Çöl Nişancısı"
 
-#. [unit_type]: id=Desert Marshal, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Marshal, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Marshal.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:502
 msgid "Desert Marshal"
@@ -17782,8 +17782,8 @@ msgstr ""
 "yaratık haline getirir. Çöllerde anlaşılamayan bir tabiatın peşinden giden "
 "bu güzel hizmetçiler kavimlerinin zerafet ve gizemini temsil ederler."
 
-#. [unit_type]: id=Desert Shyde, race=elf
 #. [unit_type]: id=Desert Star
+#. [unit_type]: id=Desert Shyde, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Shyde.cfg:23
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Star.cfg:25
 msgid "SPECIAL_NOTE^ This unit can fly across any terrain except deep water."
@@ -17952,10 +17952,10 @@ msgstr ""
 msgid "Kaleh of the Quenoth Elves"
 msgstr "Kuyenot Elflerinden Kaleh"
 
-#. [unit_type]: id=Kaleh, race=elf
 #. [unit_type]: id=Quenoth Youth, race=elf
 #. [unit_type]: id=Quenoth Youth 2, race=elf
 #. [unit_type]: id=Quenoth Youth 3, race=elf
+#. [unit_type]: id=Kaleh, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:315
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:419
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:471
@@ -18016,8 +18016,8 @@ msgid "Central Body"
 msgstr "Ana Gövde"
 
 #. [unit_type]: id=Central Body, race=monster
-#. [unit_type]: id=Crawling Horror, race=monster
 #. [unit_type]: id=Pulsing Spire, race=monster
+#. [unit_type]: id=Crawling Horror, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Body.cfg:39
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Minion.cfg:26
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Spire.cfg:33
@@ -18226,8 +18226,8 @@ msgid "Naga Guardian"
 msgstr "Naga Koruyucu"
 
 #. [unit_type]: id=Naga Guardian, race=naga
-#. [unit_type]: id=Naga Sentinel, race=naga
 #. [unit_type]: id=Naga Warden, race=naga
+#. [unit_type]: id=Naga Sentinel, race=naga
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Guardian.cfg:21
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Sentinel.cfg:22
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Warden.cfg:21
@@ -18751,11 +18751,11 @@ msgstr ""
 "şişiren rüzgar gibidir. Bu mahkumiyetin sonucu olarak bu mekanizma, "
 "efendisinin verdiği göreve sıkı sıkıya bağlı yorulmaz hizmetçiler oluşturur."
 
-#. [unit_type]: id=EGhost
+#. [unit_type]: id=EShadow
 #. [unit_type]: id=ESpectre
 #. [unit_type]: id=EWraith
 #. [unit_type]: id=ENightgaunt
-#. [unit_type]: id=EShadow
+#. [unit_type]: id=EGhost
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Ghost.cfg:18
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Nightgaunt.cfg:20
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Shadow.cfg:23

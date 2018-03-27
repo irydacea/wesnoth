@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2014-03-07 23:20+0100\n"
 "Last-Translator: Crommy\n"
 "Language-Team: irc://irc.freenode.net/#wesnoth-de\n"
@@ -678,8 +678,8 @@ msgstr ""
 "Wenn sie nichts macht, lass’ sie doch einfach in Ruhe. Vielleicht folgt sie "
 "uns ja von selbst."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

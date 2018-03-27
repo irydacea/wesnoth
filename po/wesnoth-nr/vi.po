@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-17 18:31 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:13 UTC\n"
 "PO-Revision-Date: 2014-06-03 22:21+0700\n"
 "Last-Translator: \n"
 "Language-Team: Vietnamese <kde-i18n-doc@kde.org>\n"
@@ -759,15 +759,15 @@ msgstr ""
 "thứ hai. Mọi người nhanh chóng tập hợp, thu thập tất cả thức ăn và vũ khí họ "
 "có thể tìm được, rồi đâm sâu vào bóng tối của hang động."
 
-#. [side]: type=Troll, id=Franik
-#. [side]: type=Troll, id=Henie
-#. [side]: type=Troll, id=Knash
-#. [side]: type=Troll, id=Krog
-#. [side]: type=Troll Warrior, id=Thung
 #. [side]: type=Troll Warrior, id=Tor
 #. [side]: type=Troll Warrior, id=Bor
 #. [side]: type=Troll Warrior, id=Oof
 #. [side]: type=Troll Warrior, id=Glu
+#. [side]: type=Troll, id=Knash
+#. [side]: type=Troll, id=Krog
+#. [side]: type=Troll Warrior, id=Thung
+#. [side]: type=Troll, id=Franik
+#. [side]: type=Troll, id=Henie
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:71
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:85
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:141
@@ -790,8 +790,8 @@ msgstr "Knash"
 msgid "Krog"
 msgstr "Krog"
 
-#. [unit]: type=Dwarvish Lord, id=Hamel
 #. [side]: type=Dwarvish Lord, id=Hamel
+#. [unit]: type=Dwarvish Lord, id=Hamel
 #: data/campaigns/Northern_Rebirth/scenarios/02_01_Infested_Caves.cfg:105
 #: data/campaigns/Northern_Rebirth/scenarios/02_02_Meeting_With_Dwarves.cfg:48
 #: data/campaigns/Northern_Rebirth/scenarios/03_To_the_Mines.cfg:42
@@ -801,14 +801,14 @@ msgstr "Krog"
 msgid "Hamel"
 msgstr "Hamel"
 
-#. [side]: type=Death Knight, id=Mal Barath
-#. [side]: type=Death Knight, id=Delzath
-#. [side]: type=Death Knight, id=Mal Tath
 #. [side]: type=Ancient Lich, id=Malifor
 #. [side]: type=Draug, id=Thorin
 #. [side]: type=Draug, id=Herlin
 #. [side]: type=Draug, id=Fervin
 #. [side]: type=Draug, id=Hellian
+#. [side]: type=Death Knight, id=Mal Barath
+#. [side]: type=Death Knight, id=Delzath
+#. [side]: type=Death Knight, id=Mal Tath
 #. [side]: type=Death Knight, id=Hettel
 #. [side]: type=Death Knight, id=Tervor
 #. [side]: type=Death Knight, id=Author
@@ -1628,8 +1628,8 @@ msgstr ""
 msgid "Ahahahaha! Yes, smash the skeletons! Smash them!"
 msgstr ""
 
-#. [message]: speaker=Tallin
 #. [message]: role=Supporter
+#. [message]: speaker=Tallin
 #: data/campaigns/Northern_Rebirth/scenarios/02_02_Meeting_With_Dwarves.cfg:176
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:184
 msgid "..."
@@ -1730,9 +1730,9 @@ msgid "When the party finally reached the mines, they were not disappointed."
 msgstr "Cuối cùng, khi đội quân đến được hầm mỏ, họ không thất vọng."
 
 #. [side]
-#. [side]: type=Elvish Avenger, id=Sisal
 #. [side]: type=Lieutenant, id=Tallin
 #. [side]: type=Dwarvish Lord, id=Hamel
+#. [side]: type=Elvish Avenger, id=Sisal
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:29
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:32
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:162
@@ -1752,8 +1752,8 @@ msgstr "Cuối cùng, khi đội quân đến được hầm mỏ, họ không t
 msgid "Alliance"
 msgstr "Liên minh"
 
-#. [unit]: type=Ancient Lich, id=Malifor
 #. [side]: type=Ancient Lich, id=Malifor
+#. [unit]: type=Ancient Lich, id=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/04_Clearing_the_Mines.cfg:49
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:53
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:249
@@ -2420,9 +2420,9 @@ msgstr ""
 "chung tay làm đồng minh để phục hồi sự trong sạch của vùng đất phương Bắc "
 "này."
 
+#. [message]: id=Elenia
 #. [message]: speaker=Father Morvin
 #. [message]: speaker=Sister Thera
-#. [message]: id=Elenia
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:624
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:754
 #: data/campaigns/Northern_Rebirth/scenarios/14a_Epilogue.cfg:275
@@ -3734,8 +3734,8 @@ msgstr ""
 "NGƯỜI THÂN CẬN BỎ RƠI CÁC NGƯƠI! CẦU MONG SÉT ĐÁNH TRÚNG ĐẦU CÁC NGƯƠI! CẦU "
 "MONG -"
 
-#. [message]: speaker=Sister Thera
 #. [message]: speaker=Tallin
+#. [message]: speaker=Sister Thera
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2665
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:468
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:677
@@ -3751,8 +3751,8 @@ msgstr ""
 "CẦU MONG TRÁI ĐẤT MỞ RA VÀ NUỐT CHỬNG NGƯƠI! CẦU MONG RĂNG CỦA NGƯƠI RƠI RA "
 "HẾT! CẦU MONG NGƯƠI TRỞ THÀNH MỘT LÃO GIÀ GẦY GÒ ỐM YẾU! CẦU MONG -"
 
-#. [message]: speaker=Father Morvin
 #. [message]: speaker=second_unit
+#. [message]: speaker=Father Morvin
 #: data/campaigns/Northern_Rebirth/scenarios/05a_01_The_Pursuit.cfg:2685
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:483
 #: data/campaigns/Northern_Rebirth/scenarios/07b_Protecting_the_Master.cfg:692
@@ -4185,9 +4185,9 @@ msgstr ""
 "Kế hoạch được quyết định rằng người của Tallin nên xông ra để gặp bọn người "
 "thú, trong khi người của Hamel mở đường rút lui vào trong hang động."
 
-#. [side]: type=Great Mage, id=Camerin
 #. [side]
 #. [side]: type=Dwarvish Lord, id=Stalrag
+#. [side]: type=Great Mage, id=Camerin
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:43
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:130
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:148
@@ -4197,19 +4197,19 @@ msgstr ""
 msgid "Knalgans"
 msgstr "Người Knalga"
 
-#. [side]: type=Orcish Warlord, id=Atul
 #. [side]
 #. [side]: type=Orcish Warlord, id=Drung
 #. [side]: type=Orcish Warlord, id=Poul
+#. [side]: type=Orcish Warlord, id=Ha'Tuil
+#. [side]: type=Orcish Warlord, id=Ar'Muff
+#. [side]: type=Orcish Warlord, id=Calter
+#. [side]: type=Orcish Warlord, id=Halter
+#. [side]: type=Orcish Warlord, id=Atul
 #. [side]: type=Troll Warrior, id=Gore
 #. [side]: type=Orcish Warlord, id=Carron
 #. [side]: type=Orcish Warlord, id=Rash
 #. [side]: type=Orcish Warlord, id=Al'Mar
 #. [side]: type=Orcish Warlord, id=Ha'Tang
-#. [side]: type=Orcish Warlord, id=Ha'Tuil
-#. [side]: type=Orcish Warlord, id=Ar'Muff
-#. [side]: type=Orcish Warlord, id=Calter
-#. [side]: type=Orcish Warlord, id=Halter
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:57
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:87
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:109
@@ -4385,8 +4385,8 @@ msgstr "Chưa hết đâu. TƯỚNG ĐÂU, GỌI QUÂN TIẾP VIỆN!"
 msgid "Oh yeah!"
 msgstr "HA HA!"
 
-#. [message]: speaker=Malifor
 #. [message]: id=Poul
+#. [message]: speaker=Malifor
 #: data/campaigns/Northern_Rebirth/scenarios/06a_Old_Friend.cfg:392
 #: data/campaigns/Northern_Rebirth/scenarios/06b_Slave_of_the_Undead.cfg:294
 msgid "HAHAHA!"
@@ -4989,8 +4989,8 @@ msgstr ""
 msgid "(<i>Giggle</i>) Something like that."
 msgstr "(<i>Cười khúc khích</i>) Một điều gì đó như thế."
 
-#. [story]
 #. [message]: speaker=Tallin
+#. [story]
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:91
 #: data/campaigns/Northern_Rebirth/scenarios/09a_Introductions.cfg:170
 msgid "(<i>Rolls eyes</i>)"
@@ -5082,8 +5082,8 @@ msgstr ""
 "Như thế, Tallin và đội quân của mình lên đường để tìm kiếm sự giúp đỡ của "
 "các pháp sư."
 
-#. [unit]: type=Dwarvish Lord, id=Stalrag
 #. [side]: type=Dwarvish Lord, id=Stalrag
+#. [unit]: type=Dwarvish Lord, id=Stalrag
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:153
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:107
 #: data/campaigns/Northern_Rebirth/utils/utils.cfg:107
@@ -5095,17 +5095,17 @@ msgstr "Stalrag"
 msgid "Liches"
 msgstr ""
 
-#. [unit]: type=Ancient Lich, id=Ro'Arthian
-#. [side]: type=Ancient Lich, id=Ro'Arthian
 #. [modify_side]
+#. [side]: type=Ancient Lich, id=Ro'Arthian
+#. [unit]: type=Ancient Lich, id=Ro'Arthian
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:218
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:121
 #: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:398
 msgid "Ro’Arthian"
 msgstr "Ro’Arthian"
 
-#. [unit]: type=Lich, id=Ro'Sothian
 #. [modify_side]
+#. [unit]: type=Lich, id=Ro'Sothian
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:257
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:638
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:796
@@ -5604,10 +5604,10 @@ msgstr ""
 "Chờ một chút, Tallin. Anh nói chúng tôi nên từ bỏ quê hương cho bọn pháp sư "
 "khốn nạn này sao?!"
 
-#. [message]: speaker=Ro'Arthian
-#. [message]: speaker=Ro'Sothian
-#. [message]: speaker=Eryssa
 #. [message]: id=Ro'Sothian
+#. [message]: speaker=Ro'Sothian
+#. [message]: speaker=Ro'Arthian
+#. [message]: speaker=Eryssa
 #: data/campaigns/Northern_Rebirth/scenarios/07a_Settling_Disputes.cfg:838
 #: data/campaigns/Northern_Rebirth/scenarios/10a_Stolen_Gold.cfg:1037
 #: data/campaigns/Northern_Rebirth/scenarios/11a_The_Eastern_Flank.cfg:506
@@ -6333,8 +6333,8 @@ msgstr ""
 msgid "INTRUDERS! KILL THEM!!"
 msgstr "CÓ KẺ XÂM NHẬP! GIẾT CHÚNG!!"
 
-#. [unit]: type=Elvish Sorceress, id=Eryssa
 #. [modify_side]
+#. [unit]: type=Elvish Sorceress, id=Eryssa
 #: data/campaigns/Northern_Rebirth/scenarios/08a_Elvish_Princess.cfg:339
 #: data/campaigns/Northern_Rebirth/scenarios/12a_Get_the_Gold.cfg:351
 #: data/campaigns/Northern_Rebirth/scenarios/13a_Showdown.cfg:435

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2013-09-18 10:47+0700\n"
 "Last-Translator: Pham Thanh Nam <phamthanhnam.ptn@gmail.com>\n"
 "Language-Team: Vietnamese <>\n"
@@ -680,8 +680,8 @@ msgid "If it does not attack, do not kill it. Let us see if it follows us."
 msgstr ""
 "Nếu nó không tấn công, đừng giết nó. Hãy xem nó có theo chúng ta không."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

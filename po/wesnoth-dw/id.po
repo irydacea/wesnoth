@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2012-11-25 15:34+0700\n"
 "Last-Translator: Yuris <yuris_wicaksana@yahoo.com>\n"
 "Language-Team: none\n"
@@ -690,8 +690,8 @@ msgstr ""
 "Jika kelelawar itu tidak menyerang, jangan membunuhnya. Mari kita lihat "
 "apakah kelelawar itu mengikuti kita."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2012-06-01 19:42+0800\n"
 "Last-Translator: Magic Len <magiclen0810@gmail.com>\n"
 "Language-Team: none\n"
@@ -625,8 +625,8 @@ msgstr "等一下！你真的認為牠的主人死了，牠會立刻想找一個
 msgid "If it does not attack, do not kill it. Let us see if it follows us."
 msgstr "如果牠不攻擊，我們就不殺牠。讓我們看看牠會不會跟著我們走。"
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

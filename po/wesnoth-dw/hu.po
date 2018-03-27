@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2012-01-19 13:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian <kde-l10n-hu@kde.org>\n"
@@ -670,8 +670,8 @@ msgstr ""
 msgid "If it does not attack, do not kill it. Let us see if it follows us."
 msgstr "Hát, ha nem ellenséges, ne öld meg. Nézzük csak, hátha utánunk jön."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

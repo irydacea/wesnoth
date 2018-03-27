@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.3-svn\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:02 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2012-12-29 22:55+0700\n"
 "Last-Translator: Yuris <yuris_wicaksana@yahoo.com>\n"
 "Language-Team: none\n"
@@ -139,9 +139,9 @@ msgstr ""
 msgid "The Morning After"
 msgstr "Pagi Sesudah itu"
 
+#. [side]: id=Kaleh, type=Desert Fighter
 #. [side]
 #. [side]: id=Kaleh, type=Quenoth Youth
-#. [side]: id=Kaleh, type=Desert Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:30
 #: data/campaigns/Under_the_Burning_Suns/scenarios/02_Across_the_Harsh_Sands.cfg:34
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:41
@@ -191,10 +191,10 @@ msgstr "Kaleh dari Bangsa Elf Quenoth"
 msgid "Monsters"
 msgstr "Monster-monster"
 
-#. [side]
 #. [side]: id=Panok, type=Direwolf Rider, type=Goblin Knight
 #. [side]: id=Turg, type=Orcish Warrior, type=Orcish Warlord
 #. [side]: id=Ug'lok, type=Orcish Warrior, type=Orcish Warlord
+#. [side]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:74
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:56
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:102
@@ -418,57 +418,57 @@ msgstr "Kematian Garak"
 msgid "Death of Zhul"
 msgstr "Kematian Zhul"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Fighter
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:151
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:151
 msgid "Lrea"
 msgstr "Lrea"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Fighter
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:156
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:156
 msgid "Piyru"
 msgstr "Piyru"
 
-#. [value]: type=Quenoth Fighter
 #. [value]: type=Desert Archer
+#. [value]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:161
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:161
 msgid "Frea"
 msgstr "Frea"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Archer
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:166
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:166
 msgid "Danu"
 msgstr "Danu"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Hunter
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:171
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:172
 msgid "Hamuil"
 msgstr "Hamuil"
 
-#. [value]: type=Quenoth Scout
 #. [value]: type=Desert Hunter
+#. [value]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:176
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:177
 msgid "Anioh"
 msgstr "Anioh"
 
-#. [value]: type=Tauroch Rider
 #. [value]: type=Desert Scout
+#. [value]: type=Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:181
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:183
 msgid "Vemuil"
 msgstr "Vemuil"
 
-#. [value]: type=Tauroch Rider
 #. [value]: type=Desert Scout
+#. [value]: type=Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:186
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/01_The_Morning_After.cfg:188
 msgid "Taliu"
@@ -618,8 +618,8 @@ msgstr "Seela"
 msgid "Kaleh, Nym, help us!"
 msgstr "Kaleh, Nym, bantu kami!"
 
-#. [message]: speaker=Nym
 #. [message]: speaker=Kaleh
+#. [message]: speaker=Nym
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:351
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:545
 #: data/campaigns/Under_the_Burning_Suns/scenarios/01_The_Morning_After.cfg:744
@@ -3602,8 +3602,8 @@ msgstr ""
 "Anda berjuang begitu keras untuk melindungi rakyat anda yang berharga, elf "
 "muda. Tidak ada perbuatan besar bebas tanpa hukuman."
 
-#. [message]: id=Ystara,Azkotep
 #. [message]: speaker=Ystara
+#. [message]: id=Ystara,Azkotep
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:1928
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/03_Stirring_in_the_Night.cfg:1923
 msgid "A token to remember us by..."
@@ -3621,8 +3621,8 @@ msgstr "Aauugghh!"
 msgid "He just collapsed!"
 msgstr "Dia baru saja ambruk!"
 
-#. [message]: id=Ystara,Azkotep
 #. [message]: speaker=Ystara
+#. [message]: id=Ystara,Azkotep
 #: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg:1951
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/03_Stirring_in_the_Night.cfg:1946
 msgid ""
@@ -4321,9 +4321,9 @@ msgstr ""
 "aneh membuatku ingin datang ke sini, tapi saya tidak tahu apa yang membuat "
 "saya berpikir itu suatu kebaikan."
 
-#. [unit]: type=Dark Assassin1, id=Cloaked Figure
-#. [unit]: type=Dark Assassin2, id=Cloaked Figure
 #. [unit]: type=Dark Assassin3, id=Cloaked Figure
+#. [unit]: type=Dark Assassin2, id=Cloaked Figure
+#. [unit]: type=Dark Assassin1, id=Cloaked Figure
 #: data/campaigns/Under_the_Burning_Suns/scenarios/04_Descending_into_Darkness.cfg:932
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:2387
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:2335
@@ -4488,22 +4488,22 @@ msgstr "Jelajahi bawah tanah"
 msgid "Defeat enemy leaders"
 msgstr "Kalahkan pemimpin-pemimpin troll "
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Fighter
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:363
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:363
 msgid "Nantheos"
 msgstr "Nantheos"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Archer
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:375
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:375
 msgid "Sylestria"
 msgstr "Sylestria"
 
-#. [unit]: type=Quenoth Flanker
 #. [unit]: type=Desert Ranger
+#. [unit]: type=Quenoth Flanker
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:396
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:396
 msgid "Rygar"
@@ -4798,8 +4798,8 @@ msgstr "Laba-laba bukanlah serangga."
 msgid "Thanks for the clarification."
 msgstr "Terima kasih atas penjelasannya."
 
-#. [event]
 #. [unit]: type=Dwarvish Fighter, id=Wounded Dwarf
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:685
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:627
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/05_A_Subterranean_Struggle.cfg:685
@@ -5047,8 +5047,8 @@ msgstr ""
 "Kedengarannya seperti pekerjaan kita belum selesai. Baiklah, kumpulkan diri "
 "kalian bersama-sama, kita harus mengikuti Zurg."
 
-#. [event]
 #. [unit]: type=Dwarvish Pathfinder, id=Grimnir
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/05_A_Subterranean_Struggle.cfg:947
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:270
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:1672
@@ -6025,10 +6025,10 @@ msgstr ""
 msgid "Troll Brute"
 msgstr "Troll Kasar"
 
+#. [event]
 #. [unit]: type=Troll
 #. [unit]: type=Troll Rocklobber
 #. [unit]: type=Troll Whelp
-#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:490
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:493
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:497
@@ -6104,8 +6104,8 @@ msgstr "Para Penyusup! Bunuh mereka!"
 msgid "Tell us where your leader is hiding!"
 msgstr "Beritahu kami di mana pemimpin anda bersembunyi!"
 
-#. [message]: speaker=Kaleh
 #. [message]: speaker=Wounded Dwarf
+#. [message]: speaker=Kaleh
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06a_In_the_Tunnels_of_Trolls.cfg:641
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:582
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/06a_In_the_Tunnels_of_Trolls.cfg:641
@@ -6769,9 +6769,9 @@ msgid "Enemies"
 msgstr "Musuh"
 
 #. [side]: id=King Thurongar, type=Dwarvish Lord
+#. [side]: id=Melusand, type=Mermaid Diviner
 #. [side]: id=Great Leader Darmog, type=Great Troll
 #. [side]
-#. [side]: id=Melusand, type=Mermaid Diviner
 #: data/campaigns/Under_the_Burning_Suns/scenarios/06b_In_the_Domain_of_Dwarves.cfg:77
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:53
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07b_Talking_with_Trolls.cfg:54
@@ -8553,8 +8553,8 @@ msgid "Wait, did you feel that?"
 msgstr "Tunggu, Apakah anda merasakan itu?"
 
 #. [message]: speaker=Nym
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:509
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1747
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:507
@@ -8712,22 +8712,22 @@ msgstr ""
 "Yah, kita harus keluar dari sini juga. Sepertinya kita tidak punya pilihan "
 "selain memperjuangkan jalan kita melalui kekacauan ini."
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:868
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:865
 msgid "Bellerin"
 msgstr "Bellerin"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:878
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:875
 msgid "Durth"
 msgstr "Durth"
 
-#. [event]
 #. [event]: role=human_scout)}, role=human_scout)}, role=human_scout)}
+#. [event]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/08_Out_of_the_Frying_Pan.cfg:888
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/08_Out_of_the_Frying_Pan.cfg:885
 msgid "Othgar"
@@ -11954,15 +11954,15 @@ msgstr "Menyelamatkan setidaknya dua manusia duyung dalam giliran ke 16"
 msgid "Three merfolk must survive"
 msgstr "Tiga manusia duyung harus bertahan hidup"
 
-#. [unit]: type=Quenoth Fighter, id=Ulothanir
 #. [unit]: type=Desert Fighter, id=Ulothanir
+#. [unit]: type=Quenoth Fighter, id=Ulothanir
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:354
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:352
 msgid "Ulothanir"
 msgstr "Ulothanir"
 
-#. [unit]: type=Quenoth Scout, id=Elonea
 #. [unit]: type=Desert Archer, id=Elonea
+#. [unit]: type=Quenoth Scout, id=Elonea
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:367
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:365
 msgid "Elonea"
@@ -12951,8 +12951,8 @@ msgstr ""
 "tempat perlindungan mereka. Mereka lebih suka untuk membiarkan kaki-kaki "
 "tangan mereka melakukan pekerjaan  kotor."
 
-#. [unit]: type=Quenoth Champion, id=Tanstafaal
 #. [unit]: type=Desert Captain, id=Tanstafaal
+#. [unit]: type=Quenoth Champion, id=Tanstafaal
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1668
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1666
 msgid "Tanstafaal"
@@ -13000,15 +13000,15 @@ msgstr ""
 "Lihatlah, dewi kita telah kembali kepada kita. Semua membungkukkan diri "
 "kepada Eloh, penyelamat kami!"
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1722
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1716
 msgid "The Goddess!"
 msgstr "Dewi itu!"
 
-#. [message]
 #. [message]: type=Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1727
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1721
 msgid "Forgive me my sins!"
@@ -13039,9 +13039,9 @@ msgstr ""
 "Aku datang kepada kalian dengan berita mengerikan: salah satu dari kalian "
 "telah mengkhianati saya, dan merupakan pengkhianat tujuan kalian."
 
-#. [message]
 #. [message]: speaker=Zhul
 #. [message]: type=Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1752
 #: data/campaigns/Under_the_Burning_Suns/scenarios/10_Speaking_with_the_Fishes.cfg:329
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1743
@@ -13049,8 +13049,8 @@ msgstr ""
 msgid "No!"
 msgstr "Tidak!"
 
-#. [message]
 #. [message]: type=Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1757
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1748
 msgid "Who?"
@@ -13142,8 +13142,8 @@ msgstr ""
 "kepada bangsa manusia, kalau tidak ia akan membinasakan saya. Tidak pernah "
 "Eloh mengancam salah satu dari kita atau mendikte tindakan-tindakan kita."
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8, Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1788
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1779
 msgid ""
@@ -13205,8 +13205,8 @@ msgstr ""
 "kepada bangsa manusia, kalau tidak ia akan membinasakan saya. Tidak pernah "
 "Eloh mengancam salah satu dari kita atau mendikte tindakan-tindakan kita."
 
-#. [message]
 #. [message]: type=Desert Fighter3, Desert Fighter4, Desert Fighter5, Desert Fighter6, Desert Fighter7, Desert Fighter8, Desert Hunter3, Desert Hunter4, Desert Hunter5, Desert Hunter6, Desert Hunter7, Desert Hunter8, Desert Archer3, Desert Archer4, Desert Archer5, Desert Archer6, Desert Archer7, Desert Archer8
+#. [message]
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:1803
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/09_Blood_is_Thicker_Than_Water.cfg:1794
 msgid ""
@@ -15709,15 +15709,15 @@ msgstr "Duyung Terjebak"
 msgid "Kaleh must capture a keep"
 msgstr "Kaleh harus merebut sebuah benteng"
 
-#. [unit]: type=Quenoth Fighter
 #. [unit]: type=Desert Hunter
+#. [unit]: type=Quenoth Fighter
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:366
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/11_Battle_for_Zocthanol_Isle.cfg:366
 msgid "Eagath"
 msgstr "Eagath"
 
-#. [unit]: type=Quenoth Scout
 #. [unit]: type=Desert Archer
+#. [unit]: type=Quenoth Scout
 #: data/campaigns/Under_the_Burning_Suns/scenarios/11_Battle_for_Zocthanol_Isle.cfg:378
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/11_Battle_for_Zocthanol_Isle.cfg:378
 msgid "Alusan"
@@ -16614,15 +16614,15 @@ msgstr ""
 "Apakah itu apa yang anda kira? Aku akan membuktikan bahwa anda salah. "
 "Lihatlah kepada orang-orang anda dan berputus asalah!"
 
-#. [unit]: type=Quenoth Fighter, id=Anarion
 #. [unit]: type=Desert Fighter, id=Anarion
+#. [unit]: type=Quenoth Fighter, id=Anarion
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:461
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:461
 msgid "Anarion"
 msgstr "Anarion"
 
-#. [unit]: type=Tauroch Rider, id=Zylea
 #. [unit]: type=Desert Archer, id=Zylea
+#. [unit]: type=Tauroch Rider, id=Zylea
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:488
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:488
 msgid "Zylea"
@@ -16750,8 +16750,8 @@ msgstr ""
 "makhluk hidup untuk memberlakukan  keinginan saya. Tidak, saya akan "
 "membinasakan anda sendiri!"
 
-#. [message]: type=Quenoth Fighter, Tauroch Rider
 #. [message]: type=Desert Fighter, Desert Archer
+#. [message]: type=Quenoth Fighter, Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:680
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:680
 msgid "Huh? What happened?"
@@ -16766,8 +16766,8 @@ msgstr ""
 "Mantranya telah rusak. Tapi saya tidak berpikir kita telah menang sekalipun "
 "begitu. Ayo bantu kami!"
 
-#. [message]: type=Quenoth Fighter, Tauroch Rider
 #. [message]: type=Desert Fighter, Desert Archer
+#. [message]: type=Quenoth Fighter, Tauroch Rider
 #: data/campaigns/Under_the_Burning_Suns/scenarios/12_The_Final_Confrontation.cfg:690
 #: data/campaigns/Under_the_Burning_Suns/scenarios_old/12_The_Final_Confrontation.cfg:690
 msgid "Yes priestess."
@@ -18092,15 +18092,15 @@ msgstr "Menjelajah Keluar"
 msgid "If a human messenger escapes the valley"
 msgstr "Jika seorang kurir manusia keluar lembah"
 
-#. [unit_type]: id=Corrupted Elf, race=elf
 #. [unit_type]: id=Corrupted Quenoth Elf, race=elf
+#. [unit_type]: id=Corrupted Elf, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Corrupted_Elf.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Corrupted_Elf.cfg:5
 msgid "Corrupted Elf"
 msgstr "Elf Jahat"
 
-#. [unit_type]: id=Corrupted Elf, race=elf
 #. [unit_type]: id=Corrupted Quenoth Elf, race=elf
+#. [unit_type]: id=Corrupted Elf, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Corrupted_Elf.cfg:17
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Corrupted_Elf.cfg:19
 msgid ""
@@ -18166,8 +18166,8 @@ msgstr ""
 msgid "female^Desert Avenger"
 msgstr "Penuntut Balas Gurun Wanita"
 
-#. [unit_type]: id=Desert Captain, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Captain, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Captain.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:480
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:491
@@ -18186,8 +18186,8 @@ msgstr ""
 "Gurun lebih suka melawan musuh dalam pertempuran jarak dekat, namun terlatih "
 "dalam seni panahan juga."
 
-#. [unit_type]: id=Desert Champion, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Champion, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Champion.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:548
 msgid "Desert Champion"
@@ -18223,8 +18223,8 @@ msgstr ""
 "sekutu mereka. Cenayang adalah unit-unit penunjang yang sangat baik dalam "
 "setiap kelompok elf."
 
-#. [unit_type]: id=Desert Fighter, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Fighter, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Fighter.cfg:5
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:420
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:433
@@ -18246,8 +18246,8 @@ msgstr ""
 "Para Elf ini adalah pejalan kaki yang tangkas, dan bertarung terbaik di "
 "lautan pasir terbuka."
 
-#. [unit_type]: id=Desert Hero, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Hero, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Hero.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:526
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:537
@@ -18314,8 +18314,8 @@ msgstr ""
 msgid "bolas"
 msgstr "bolas"
 
-#. [female]
 #. [unit_type]: id=Nym Hunter
+#. [female]
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Hunter.cfg:77
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Nym.cfg:77
 msgid "female^Desert Hunter"
@@ -18344,8 +18344,8 @@ msgstr ""
 msgid "female^Desert Marksman"
 msgstr "Penembak Gurun Wanita"
 
-#. [unit_type]: id=Desert Marshal, race=elf
 #. [variation]
+#. [unit_type]: id=Desert Marshal, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Marshal.cfg:4
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:502
 msgid "Desert Marshal"
@@ -18540,8 +18540,8 @@ msgstr ""
 "makhluk-makhluk yang indah. Mereka mampu terbang melayang tanpa beban di "
 "hampir semua daerah."
 
-#. [unit_type]: id=Desert Shyde, race=elf
 #. [unit_type]: id=Desert Star
+#. [unit_type]: id=Desert Shyde, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Shyde.cfg:23
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Desert_Star.cfg:25
 msgid "SPECIAL_NOTE^ This unit can fly across any terrain except deep water."
@@ -18734,10 +18734,10 @@ msgstr ""
 msgid "Kaleh of the Quenoth Elves"
 msgstr "Kaleh dari Bangsa Elf Quenoth"
 
-#. [unit_type]: id=Kaleh, race=elf
 #. [unit_type]: id=Quenoth Youth, race=elf
 #. [unit_type]: id=Quenoth Youth 2, race=elf
 #. [unit_type]: id=Quenoth Youth 3, race=elf
+#. [unit_type]: id=Kaleh, race=elf
 #: data/campaigns/Under_the_Burning_Suns/units/elves/Kaleh.cfg:315
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:419
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:471
@@ -18805,8 +18805,8 @@ msgid "Central Body"
 msgstr "Badan Pusat"
 
 #. [unit_type]: id=Central Body, race=monster
-#. [unit_type]: id=Crawling Horror, race=monster
 #. [unit_type]: id=Pulsing Spire, race=monster
+#. [unit_type]: id=Crawling Horror, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Body.cfg:39
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Minion.cfg:26
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Alien_Spire.cfg:33
@@ -19024,8 +19024,8 @@ msgid "Naga Guardian"
 msgstr "Naga Penjaga "
 
 #. [unit_type]: id=Naga Guardian, race=naga
-#. [unit_type]: id=Naga Sentinel, race=naga
 #. [unit_type]: id=Naga Warden, race=naga
+#. [unit_type]: id=Naga Sentinel, race=naga
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Guardian.cfg:21
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Sentinel.cfg:22
 #: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Warden.cfg:21
@@ -19560,11 +19560,11 @@ msgstr ""
 "penjara ini adalah pelayan tak pernah henti, yang dapat terikat pada tugas "
 "apapun yang tuannya melihatnya cocok."
 
-#. [unit_type]: id=EGhost
+#. [unit_type]: id=EShadow
 #. [unit_type]: id=ESpectre
 #. [unit_type]: id=EWraith
 #. [unit_type]: id=ENightgaunt
-#. [unit_type]: id=EShadow
+#. [unit_type]: id=EGhost
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Ghost.cfg:18
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Nightgaunt.cfg:20
 #: data/campaigns/Under_the_Burning_Suns/units/undead/Ethereal_Shadow.cfg:23

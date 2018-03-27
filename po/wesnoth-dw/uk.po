@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.10\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-12 17:01 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2012-09-14 13:13+0200\n"
 "Last-Translator: Igor Paliychuk <mansonigor@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -679,8 +679,8 @@ msgid "If it does not attack, do not kill it. Let us see if it follows us."
 msgstr ""
 "Якщо воно не нападає, то не вбивай його. Подивимося, чи піде воно за нами."
 
-#. [message]: speaker=unit
 #. [message]: speaker=second_unit
+#. [message]: speaker=unit
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:498
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:625
 #: data/campaigns/Dead_Water/scenarios/02_Flight.cfg:738

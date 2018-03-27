@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-02-04 16:39 UTC\n"
+"POT-Creation-Date: 2018-03-27 01:14 UTC\n"
 "PO-Revision-Date: 2014-11-11 12:10+0300\n"
 "Last-Translator: Fedor Khod'kov <fkhodkov@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -200,8 +200,8 @@ msgstr ""
 "помощь, но не хотим иметь ничего общего с теми, кто выбрал путь Тьмы».</i>"
 
 #. [side]
-#. [side]: type=Sergeant, id=Drogan
 #. [side]: type=General, id=Taylor
+#. [side]: type=Sergeant, id=Drogan
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:56
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:102
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:115
@@ -212,11 +212,11 @@ msgid "Defenders"
 msgstr "Защитники"
 
 #. [side]: type=Orcish Warlord, id=Borth
+#. [side]: type=Orcish Warlord, id=P'Gareth
+#. [side]: type=Orcish Warlord, id=K'Vark
 #. [side]: type=Orcish Warrior, id=Kreg'a'shar Trr
 #. [side]: type=Orcish Warlord, id=Gron'r Hronk
 #. [side]: type=Orcish Warlord, id=K'rrlar Oban
-#. [side]: type=Orcish Warlord, id=P'Gareth
-#. [side]: type=Orcish Warlord, id=K'Vark
 #. [modify_side]
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:77
 #: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:55
@@ -234,8 +234,8 @@ msgstr "Орки"
 msgid "Kreg’a’shar Trr"
 msgstr "Крег’а’шар Трр"
 
-#. [side]: type=Lieutenant, id=Drogan
 #. [side]: type=Sergeant, id=Drogan
+#. [side]: type=Lieutenant, id=Drogan
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:107
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:90
 msgid "Drogan"
@@ -1688,9 +1688,9 @@ msgstr "Здесь вход! Скорее!"
 msgid "A Small Favor — Part 2"
 msgstr "Небольшая услуга, часть 2"
 
-#. [event]
 #. [side]
 #. [command]
+#. [event]
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:48
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:177
 #: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:150
