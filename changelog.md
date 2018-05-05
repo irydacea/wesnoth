@@ -15,6 +15,8 @@
    * Highlight the titles of MP games with vacant slots.
    * Improved MP Lobby layout on low resolutions.
    * Improved reporting of network errors in the MP lobby (issue #3005).
+   * Fixed a regression from 1.12.x causing all weapon specials to be listed in
+     the Attack Unit dialog even when they are inactive or disabled.
  ### Miscellaneous and bug fixes
    * Removed misleading tooltip text stating registered nicknames are optional for
      the official MP server.
