@@ -2070,6 +2070,7 @@ msgstr "Introducción"
 msgid "Gameplay"
 msgstr "Juego"
 
+#. #-#-#-#-#  wesnoth-help.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #: data/core/help.cfg:29 data/core/help.cfg:531
@@ -8343,8 +8344,9 @@ msgstr "Alineamiento:"
 #. non-breaking spaces to prevent unpleasant line breaks (issue #3256).  In the
 #. translation use non-breaking spaces as appropriate for the target language.
 #: src/help/help_topic_generators.cpp:559
+#, fuzzy
 #| msgid "Required XP:"
-msgid "Required XP:"
+msgid "Required XP:"
 msgstr "PX requeridos:"
 
 #: src/help/help_topic_generators.cpp:574

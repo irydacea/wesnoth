@@ -1759,8 +1759,9 @@ msgstr "nivel $level"
 
 #. [lua]: training.generate_message
 #: data/campaigns/World_Conquest/lua/game_mechanics/training.lua:143
+#, fuzzy
 #| msgid "$chance| chance to $arrow $desc"
-msgid "$chance| chance to $arrow $desc"
+msgid "$chance| chance to $arrow $desc"
 msgstr "$chance| posibilidad de $arrow $desc"
 
 #. [lua]: training.apply
@@ -2827,11 +2828,12 @@ msgstr "Aldea/Castillo: +5 defensa"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:655
+#, fuzzy
 #| msgid ""
 #| "$terrain|: +$def| defense and full movement, +$res| resistance vs "
 #| "$dmg_type|"
 msgid ""
-"$terrain|: +$def| defense and full movement, +$res| resistance vs $dmg_type|"
+"$terrain|: +$def| defense and full movement, +$res| resistance vs $dmg_type|"
 msgstr ""
 "$terrain|: +$def| defensa y movimiento completo, +$res| resistencia contra "
 "$dmg_type|"
@@ -2848,7 +2850,9 @@ msgstr "+movimientos defensa"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:705
-msgid "melee: optional charge"
+#, fuzzy
+#| msgid "melee: optional charge"
+msgid "melee: optional charge"
 msgstr "cuerpo a cuerpo: ataque opcional"
 
 #. [chance]
@@ -3389,7 +3393,9 @@ msgid "Full movement on turn recruited or recalled"
 msgstr "Movimiento completo en turno al ser reclutado o reincorporado"
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:64
-msgid "optional charge"
+#, fuzzy
+#| msgid "optional charge"
+msgid "optional charge"
 msgstr "ataque opcional"
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:67
@@ -3402,13 +3408,15 @@ msgstr ""
 "Las vulnerabilidades de esta unidad se reducen a la mitad cuando se defiende."
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:73
+#, fuzzy
 #| msgid "free upkeep"
-msgid "free upkeep"
+msgid "free upkeep"
 msgstr "sin mantenimiento"
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:76
+#, fuzzy
 #| msgid "full movement"
-msgid "full movement"
+msgid "full movement"
 msgstr "movimiento completo"
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:79
@@ -3424,8 +3432,8 @@ msgid "no undead^consumed by a living being:"
 msgstr "consumido por un ser vivo:"
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:88
-msgid "up to"
-msgstr "hasta"
+msgid "up to"
+msgstr ""
 
 #: data/campaigns/World_Conquest/resources/strings/effects.cfg:91
 msgid "disengage"
@@ -3579,3 +3587,6 @@ msgstr ""
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:93
 msgid "WC"
 msgstr "CM"
+
+#~ msgid "up to"
+#~ msgstr "hasta"
