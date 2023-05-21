@@ -22,10 +22,15 @@
 #include "gui/widgets/settings.hpp"
 #include "gui/widgets/toggle_button.hpp"
 #include "gui/widgets/window.hpp"
+
+#include "font/font_config.hpp"
 #include "game_config.hpp"
 #include "gettext.hpp"
 #include "language.hpp"
+#include "picture.hpp"
 #include "preferences/general.hpp"
+#include "sound.hpp"
+#include "video.hpp"
 
 namespace gui2::dialogs
 {
@@ -82,9 +87,38 @@ void language_selection::shown_filter_callback()
 	}
 }
 
+void language_selection::selection_changed_callback()
+{
+	window& window = *get_window();
+	const auto selection = find_widget<listbox>(&window, "language_list", false).get_selected_row();
+
+	if(selection >= 0) {
+		::set_language(langs_[selection]);
+		preferences::set_language(langs_[selection].localename);
+
+		// Here's where the magic happens
+		video::set_window_title(game_config::get_default_title_string());
+		t_string::reset_translations();
+		image::flush_cache();
+		sound::flush_cache();
+		font::load_font_config();
+
+		// HACK:
+		// Invalidating layout for all visible GUI2 windows forces all labels that
+		// are translatable t_strings to be recast and retranslated.
+		for(auto* window : open_window_stack) {
+			if(window) {
+				window->invalidate_layout();
+			}
+		}
+	}
+}
+
 void language_selection::pre_show(window& window)
 {
 	listbox& list = find_widget<listbox>(&window, "language_list", false);
+	connect_signal_notify_modified(list, std::bind(
+			&language_selection::selection_changed_callback, this));
 	window.keyboard_capture(&list);
 
 	toggle_button& show_all_toggle = find_widget<toggle_button>(&window, "show_all", false);
@@ -110,19 +144,6 @@ void language_selection::pre_show(window& window)
 	// The view filter needs to be set after building the list to take the Show
 	// All toggle value + language completion stats into account as needed.
 	shown_filter_callback();
-}
-
-void language_selection::post_show(window& window)
-{
-	if(get_retval() == retval::OK) {
-		const int res = find_widget<listbox>(&window, "language_list", false)
-								.get_selected_row();
-
-		assert(res != -1);
-
-		::set_language(langs_[res]);
-		preferences::set_language(langs_[res].localename);
-	}
 }
 
 } // namespace dialogs

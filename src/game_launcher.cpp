@@ -978,20 +978,8 @@ bool game_launcher::play_multiplayer_commandline()
 
 bool game_launcher::change_language()
 {
-	if(!gui2::dialogs::language_selection::execute()) {
-		return false;
-	}
-
-	if(!(cmdline_opts_.nogui || cmdline_opts_.headless_unit_test)) {
-		video::set_window_title(game_config::get_default_title_string());
-	}
-
-	t_string::reset_translations();
-	image::flush_cache();
-	sound::flush_cache();
-	font::load_font_config();
-
-	return true;
+	// The language selection dialog has already done most of the work for us.
+	return gui2::dialogs::language_selection::execute();
 }
 
 void game_launcher::launch_game(reload_mode reload)

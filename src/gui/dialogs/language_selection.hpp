@@ -47,9 +47,8 @@ private:
 
 	virtual void pre_show(window& window) override;
 
-	virtual void post_show(window& window) override;
-
 	void shown_filter_callback();
+	void selection_changed_callback();
 
 	const std::vector<language_def> langs_;
 	boost::dynamic_bitset<> complete_langs_;
