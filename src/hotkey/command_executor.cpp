@@ -16,6 +16,7 @@
 #include "hotkey/command_executor.hpp"
 #include "hotkey/hotkey_item.hpp"
 
+#include "font/text_formatting.hpp"
 #include "gui/dialogs/achievements_dialog.hpp"
 #include "gui/dialogs/lua_interpreter.hpp"
 #include "gui/dialogs/message.hpp"
@@ -521,7 +522,7 @@ void command_executor::get_menu_images(display& disp, std::vector<config>& items
 			}
 
 			item["label"] = desc;
-			item["details"] = hotkey::get_names(item_id);
+			item["details"] = font::span_color(font::GRAY_COLOR) + hotkey::get_names(item_id) + "</span>";
 		}
 	}
 }
