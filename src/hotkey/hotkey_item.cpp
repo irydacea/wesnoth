@@ -18,6 +18,7 @@
 #include "hotkey/hotkey_item.hpp"
 
 #include "config.hpp"
+#include "formula/string_utils.hpp"
 #include "game_config_view.hpp"
 #include "hotkey/hotkey_command.hpp"
 #include "key.hpp"
@@ -238,7 +239,14 @@ bool hotkey_mouse::matches_helper(const SDL_Event& event) const
 
 const std::string hotkey_mouse::get_name_helper() const
 {
-	return "mouse " + std::to_string(button_);
+	// TRANSLATORS: This string is a user-visible description of a mouse button
+	// when used in hotkey preferences. For example, your primary mouse button
+	// (left button for right-handed users) will be Mouse 1, secondary will be
+	// Mouse 2, and so on. It may sound a bit robotic but that's kind of
+	// inevitable when describing human interface elements in a terse and generic
+	// fashion.
+	return VGETTEXT("Mouse $button_num",
+					{{"button_num", std::to_string(button_)}});
 }
 
 void hotkey_mouse::save_helper(config& item) const
