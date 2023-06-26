@@ -24,6 +24,7 @@
 #include "key.hpp"
 #include "log.hpp"
 #include "sdl/input.hpp" // for sdl::get_mods
+#include "serialization/string_utils.hpp"
 #include "serialization/unicode.hpp"
 
 #include <boost/algorithm/string.hpp>
@@ -46,35 +47,35 @@ game_config_view default_hotkey_cfg_;
 const int TOUCH_MOUSE_INDEX = 255;
 }; // namespace
 
+#ifdef __APPLE__
+#	define key_label_by_platform(generic, apple) (apple)
+#else
+#	define key_label_by_platform(generic, apple) (generic)
+#endif
+
 const std::string hotkey_base::get_name() const
 {
-	std::string ret = "";
+	std::vector<std::string> res;
 
 	if(mod_ & KMOD_CTRL) {
-		ret += "ctrl";
+		res.emplace_back(key_label_by_platform("Ctrl", "⌃"));
 	}
 
-	ret += (!ret.empty() && !boost::algorithm::ends_with(ret, "+") ? "+" : "");
 	if(mod_ & KMOD_ALT) {
-		ret += "alt";
+		res.emplace_back(key_label_by_platform("Alt", "⌥"));
 	}
 
-	ret += (!ret.empty() && !boost::algorithm::ends_with(ret, "+") ? "+" : "");
 	if(mod_ & KMOD_SHIFT) {
-		ret += "shift";
+		res.emplace_back(key_label_by_platform("Shift", "⇧"));
 	}
 
-	ret += (!ret.empty() && !boost::algorithm::ends_with(ret, "+") ? "+" : "");
 	if(mod_ & KMOD_GUI) {
-#ifdef __APPLE__
-		ret += "cmd";
-#else
-		ret += "win";
-#endif
+		res.emplace_back(key_label_by_platform("Win", "⌘"));
 	}
 
-	ret += (!ret.empty() && !boost::algorithm::ends_with(ret, "+") ? "+" : "");
-	return ret += get_name_helper();
+	res.emplace_back(get_name_helper());
+
+	return utils::join(res, key_label_by_platform("+", " "));
 }
 
 bool hotkey_base::bindings_equal(hotkey_ptr other)
@@ -442,9 +443,9 @@ std::string get_names(const std::string& id)
 		names.push_back("escape");
 	} else if(id == "quit-to-desktop") {
 #ifdef __APPLE__
-		names.push_back("cmd+q");
+		names.push_back("⌘ Q");
 #else
-		names.push_back("alt+F4");
+		names.push_back("Alt+F4");
 #endif
 	}
 
