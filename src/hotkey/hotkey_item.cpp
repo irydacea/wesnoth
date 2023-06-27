@@ -266,8 +266,27 @@ void hotkey_mouse::save_helper(config& item) const
 
 void hotkey_keyboard::set_text(const std::string& text)
 {
-	text_ = text;
-	boost::algorithm::to_lower(text_);
+	if(text.length() == 1) {
+		// Single character, probably alphabetical
+		text_ = text;
+		boost::algorithm::to_upper(text_);
+	} else if(text.length() > 1) {
+		// For some reason some names may be all uppercase while others aren't.
+		// There isn't a sentence-case algorithm that would fit all languages
+		// without overcomplicating the code, so we'll just try our best.
+		std::locale lc;
+		auto ws = unicode_cast<std::wstring>(text);
+		if(std::isupper(ws[0], lc) && std::isupper(ws[1], lc)) {
+			// It's probably all uppercase, sentence case it by force
+			auto range = boost::make_iterator_range(ws.begin() + 1, ws.end());
+			boost::algorithm::to_lower(range);
+		} else {
+			// Either already sentence or title case, or all lowercase, so we just need
+			// to ensure the start is uppercase to make it at least sentence case.
+			ws[0] = std::toupper(ws[0], lc);
+		}
+		text_ = unicode_cast<std::string>(ws);
+	}
 }
 
 const std::string hotkey_keyboard::get_name_helper() const
