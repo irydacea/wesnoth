@@ -446,7 +446,7 @@ std::string get_names(const std::string& id)
 
 	// These are hard-coded, non-rebindable hotkeys
 	if(id == "quit") {
-		names.push_back("escape");
+		names.push_back(_("key^Esc"));
 	} else if(id == "quit-to-desktop") {
 #ifdef __APPLE__
 		names.push_back("⌘ Q");
