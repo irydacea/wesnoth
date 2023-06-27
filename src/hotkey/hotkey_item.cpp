@@ -58,19 +58,19 @@ const std::string hotkey_base::get_name() const
 	std::vector<std::string> res;
 
 	if(mod_ & KMOD_CTRL) {
-		res.emplace_back(key_label_by_platform("Ctrl", "⌃"));
+	res.emplace_back(key_label_by_platform(_("key^Ctrl"), "⌃"));
 	}
 
 	if(mod_ & KMOD_ALT) {
-		res.emplace_back(key_label_by_platform("Alt", "⌥"));
+		res.emplace_back(key_label_by_platform(_("key^Alt"), "⌥"));
 	}
 
 	if(mod_ & KMOD_SHIFT) {
-		res.emplace_back(key_label_by_platform("Shift", "⇧"));
+		res.emplace_back(key_label_by_platform(_("key^Shift"), "⇧"));
 	}
 
 	if(mod_ & KMOD_GUI) {
-		res.emplace_back(key_label_by_platform("Win", "⌘"));
+		res.emplace_back(key_label_by_platform(_("key^Win"), "⌘"));
 	}
 
 	res.emplace_back(get_name_helper());
@@ -451,7 +451,7 @@ std::string get_names(const std::string& id)
 #ifdef __APPLE__
 		names.push_back("⌘ Q");
 #else
-		names.push_back("Alt+F4");
+		names.push_back(_("Alt+F4"));
 #endif
 	}
 
