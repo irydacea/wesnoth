@@ -240,13 +240,19 @@ bool hotkey_mouse::matches_helper(const SDL_Event& event) const
 
 const std::string hotkey_mouse::get_name_helper() const
 {
+	if(button_ == TOUCH_MOUSE_INDEX) {
+		// TRANSLATORS: This is used to identify a generic touch input device which
+		// may be a trackpad/touchpad or some other touch-based device such as a
+		// touchscreen.
+		return _("input_options^Touch input");
+	}
 	// TRANSLATORS: This string is a user-visible description of a mouse button
 	// when used in hotkey preferences. For example, your primary mouse button
 	// (left button for right-handed users) will be Mouse 1, secondary will be
 	// Mouse 2, and so on. It may sound a bit robotic but that's kind of
 	// inevitable when describing human interface elements in a terse and generic
 	// fashion.
-	return VGETTEXT("Mouse $button_num",
+	return VGETTEXT("input_options^Mouse $button_num",
 					{{"button_num", std::to_string(button_)}});
 }
 
